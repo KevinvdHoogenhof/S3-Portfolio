@@ -9,6 +9,16 @@
 
 [C2 Containers](#C2-Containers)
 
+[Conceptueel model](#Conceptueel-model)
+
+[Front-end development](#Front-end-development)
+
+[Keuze front-end](#Keuze-front-end)
+
+[Back-end development](#Back-end-development)
+
+[Data behoud](#Data-behoud)
+
 # User stories
 1. Als gebruiker wil ik een overzicht kunnen zien van alle boeken om te kunnen zien welke boeken ik uit kan kiezen. 
 
