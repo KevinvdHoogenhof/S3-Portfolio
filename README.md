@@ -73,6 +73,31 @@ Hier kun je meer informatie vinden over pull requests en github actions in het o
 
 **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.
 
+#### Agile werken
+Binnen ons groepsproject werken wij op een agile manier.
+Wij doen namelijk iedere dag een stand-up, waarin we bespreken wat we die dag gaan doen en hoe we ervoor staan met het project.
+Ook kijken we hierbij regelmatig op ons github planbord (https://github.com/users/kerimcanguney/projects/1)
+Hierop kunnen we eenvoudig zien wat we nog willen doen in deze sprint en waar we nog meer aan kunnen werken binnen ons project.
+Eventuele problemen waar we tegen aanlopen kunnen we ook snel hieraan toevoegen. 
+(Zie ook https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues)
+
+#### Sprint review & sprint retrospective
+Wij werken dit semester met sprints. 
+Iedere sprint houden wij een sprint review en retrospective.
+De sprint review doen we tegelijk met de oplevering, hierbij bespreken we met de opdrachtgever wat we hebben gemaakt in deze sprint.
+Hierin krijgen wij ook feedback over het werk wat we hebben verricht, dit kunnen we dan die volgende sprint aanpassen.
+Daarnaast bespreken we ook nog waar we de volgende sprint aan gaan willen werken.
+Op deze manier kunnen we samen we de opdrachtgever plannen waar we aan gaan werken, zodat zij ook weten wat ze aan het eind van de sprint kunnen verwachten.
+
+De sprint retrospective houden wij met onze groep na de review. Hierin bespreken wij hoe het deze sprint is gegaan.
+We kijken wat goed ging en wat beter kan.
+De punten proberen we dan te verbeteren in de volgende sprints.
+Eventuele andere tips die wij hebben gekregen tijdens deze sprint of bijvoorbeeld tijdens de oplevering nemen ook mee in dit gespreken.
+Hiermee kunnen wij dan ook rekening houden.
+
+Hieronder staat een afbeelding waarin ons scrum proces staat afgebeeld:   
+![scrum-framework-example](https://user-images.githubusercontent.com/101703190/170763905-e3e050eb-ab16-4ac4-87fa-203edb09b0a6.jpg)
+
 # Learning outcome 4. CI/CD
 **Learning outcome:** You **design and implement** a (semi)automated software release process that matches the needs of the project context.
 
@@ -93,6 +118,29 @@ Na deze commando's uit te voeren heb je als het goed is tweede lopende Docker co
 Dit zijn de database container en de api zelf.  
 Hiermee heb ik bereikt dat je de back-end eenvoudig kunt pullen en runnen om vervolgens aan het front-end te kunnen gaan werken.
 Het is hierdoor niet meer nodig om dit project te openen in visual studio wat een stuk gemakkelijker is, omdat je hem nu heel snel kunt opstarten en gebruiken.
+
+#### CI/CD front-end
+Voor mijn front-end projecten heb ik ook een CI workflow opgesteld met GitHub actions.
+Deze workflows doen hetzelfde als de back-end en bouwen een docker image die naar DockerHub wordt gepusht.
+Door deze workflow kunnen we in een pull-request ook nogmaals zien of alles correct is geschreven.
+Mocht dit niet zo zijn, dan kunnen we nog wijzigingen in de code maken.
+
+Als je een of beide van deze projecten wilt uitvoeren kun je de stappen volgen in de readme van de front-end projecten.  
+
+Zie: https://github.com/KevinvdHoogenhof/novelsite-frontend#readme   
+
+Zie: https://github.com/KevinvdHoogenhof/novelsite-frontend-admin#readme
+
+Ook hier kun je de heel simpel de containers locaal laten draaien.
+
+#### Conclusie
+Met de CI workflows die ik heb opgesteld is het heel simpel om bepaalde delen van mijn project te draaien.
+Ook is het heel eenvoudig om verder te werken aan de code zelf.
+Als je aan de back-end wilt werken, maak je een database container aan en als je aan een van de front-ends wilt werken maak je een container van de database en de back-end.
+
+Dit toont ook nogmaals mooi aan hoe alle services los van elkaar kunnen werken. De containers staan namelijk los van elkaar en je hoeft ze niet allemaal te gebruiken.
+Sommige hebben uiteraard wel een andere nodig om goed te kunnen werken, maar het is bijvoorbeeld niet nodig om de normale front-end te laten draaien,
+als je alleen de admin front-end wilt gebruiken.
 
 # Learning outcome 5. Cultural differences and ethics
 **Learning outcome:** You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.
