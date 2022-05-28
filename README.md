@@ -46,6 +46,10 @@ Mijn uitleg over mijn keuze van de back-end kun je vinden onder https://github.c
 Mijn keuze over mijn ORM en het databehoud kan onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Data-behoud worden gevonden.   
 De back-end code kan gevonden worden op <https://github.com/KevinvdHoogenhof/novelsite-backend> 
 
+![image](https://user-images.githubusercontent.com/101703190/170834329-431fcfcf-5880-43fd-8e2d-1b0a3e89da9f.png)
+
+Hierboven is een afbeelding waarin je kunt zien hoe alle componenten draaien in Docker Desktop.
+
 # Learning outcome 2. Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
 
@@ -73,7 +77,7 @@ Hier kun je meer informatie vinden over pull requests en github actions in het o
 
 **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.
 
-#### Agile werken
+#### Stand-up
 Binnen ons groepsproject werken wij op een agile manier.
 Wij doen namelijk iedere dag een stand-up, waarin we bespreken wat we die dag gaan doen en hoe we ervoor staan met het project.
 Ook kijken we hierbij regelmatig op ons github planbord (https://github.com/users/kerimcanguney/projects/1)
@@ -182,3 +186,30 @@ Business processes needed for the success of your software development project (
 You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.
 
 You choose and substantiate solutions for a given problem.
+
+#### Individueel
+Voor mijn eigen project heb ik minstens iedere twee weken geprobeerd met een docent te spreken.
+Zij zijn hiervoor ook stakeholders en ik zorg met deze gesprekken ervoor dat zij ook weten wat ik aan het doen ben.
+In deze gespreken laat ik altijd zien wat ik heb gedaan en vraag ik feedback op keuzes die ik wil gaan maken of dingen waar ik tegenaanloop.
+Op deze manier krijg ik regelmatig feedback op verschillende aspecten binnen mijn project.
+Deze feedback neem ik mee en pas ik toe tijdens de volgende keren dat ik aan mijn individueel project werk.
+
+Mochten het grotere beslissingen zijn waarop ik feedback heb gekregen dan bespreek ik dit punt in het volgende feedback gesprek.
+Hierdoor kan de stakeholder zien dat ik de feedback heb toegepast en of ik dit correct heb gedaan.
+
+#### Groepsproject
+Bij het groepsproject ben ik degene geweest die vooral met de opdrachtgever communiceerde via de mail.
+Ik plande de afspraken voor onze sprint opleveringen en zorgde ervoor dat we op tijd een tijdstip afspraken met de opdrachtgevers.
+Hierdoor hadden wij en de opdrachtgevers genoeg tijd om ons voor te bereiden op de oplevering.
+
+Tijdens deze opleveringen hebben wij onze voortgang binnen het project laten zien aan de opdrachtgever.
+Eventuele keuzes die wij gemaakt hebben bespreken wij met hun in dit gesprek.
+
+Aan het eind van iedere sprint laten we ook weten waaraan wij de volgende sprint aan willen gaan werken.
+Hierdoor kunnen de opdrachtgevers bij sturen als zij iets anders belangrijkers vinden.
+Doordat we samen praten over waar we aan gaan werken, weet de opdrachtgever wat hij kan verwachten van ons.
+
+Tijdens de oplevering krijgen wij ook regelmatig feedback op verschillende punten in bijvoorbeeld de applicatie.
+Deze feedback nemen wij mee in de volgende sprint en wij doen ons best om dit toe te passen.
+Als het feedback is op een bijvoorbeeld een onderdeel van de applicatie dat anders moet dan maken wij hiervoor ook een issue aan op ons project bord.
+Hierdoor is het makkelijker om het probleem op te lossen op basis van de gekregen feedback.
