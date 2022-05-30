@@ -19,6 +19,8 @@
 
 [Data behoud](#Data-behoud)
 
+[UX design](#UX)
+
 # User stories
 1. Als gebruiker wil ik een overzicht kunnen zien van alle boeken om te kunnen zien welke boeken ik uit kan kiezen. 
 
@@ -177,3 +179,35 @@ Enkele voordelen van een ORM zijn: testbaarheid en herbruikbaarheid.
 Het is dus belangrijk om een ORM te zoeken die past bij mijn back-end. 
 
 Ik heb ervoor gekozen om Entity Framework Core te gebruiken. Dit is namelijk een veelgebruikte ORM voor ASP.NET Core projecten. Ik had hier ook duidelijke documentatie over gevonden (<https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx>) waarin staat hoe ik dit kan gebruiken. Het fijne van Entity Framework is dat het eenvoudig is om migraties te maken en dus met de database te verbinden. Ook heb je voor Entity Framework een handige In-memory package. Deze kan worden gebruikt om de applicatie te testen. Het in-memory testen is nog eens extra fijn door data-seeding, wat ik gebruik om snel data toe te kunnen voegen aan de database.
+
+# UX
+Om ervoor te zorgen dat mijn applicatie user friendly is, ga ik ervoor zorgen dat het simpel is om gebruik te maken van mijn website.
+
+### User friendly
+![image](https://user-images.githubusercontent.com/101703190/170964468-841bb9c0-a785-4c29-836a-09a514ca9981.png)
+Hierboven kun je zien hoe de homepage van mijn front-end eruit ziet.
+Ik heb hier wat test voorbeeld die worden getoond.
+Je kunt zien dat alle boeken op een rij staan en dat het duidelijk is welke boeken er zijn.
+Als je meer informatie wilt hebben over een boek kun je op de cover-afbeelding klikken.
+Hierdoor is het gemakkelijker voor de gebruiker om door te klikken, omdat je niet op een klein veld hoeft te klikken.
+Een ander punt wat ik hierin heb meegenomen is hoeveel boeken er tegelijk zichtbaar zijn.
+Ik heb ervoor gekozen om 6 boeken op een rij te plaatsen.
+Hierdoor zijn de titels en hun cover goed zichtbaar en niet te klein, maar tegelijk ook niet zo groot dat ze het hele scherm innemen.
+
+### Website doorlopen
+Ik vind het ook belangrijk dat het makkelijk is om door website heen te lopen.
+Dit houdt in dat je niet tientallen keren moet klikken om op de juiste pagina te komen.
+Dit is voor mij gelukkig niet echt een probleem, omdat ik niet zo'n grote website heb, maar ik wil hier alsnog rekening mee houden.
+Om ervoor te zorgen dat dit simpel gaat kun je direct op de titel van het boek en de cover klikken om naar de informatie van het boek te gaan.
+Verder kun je altijd terug naar wat overzichtspaginas door de links in de navigatiebalk te gebruiken.
+Door de links in de navigatiebalk is het voor de gebruiker eenvoudig en snel om op de juiste pagina te komen.
+
+### Laadsnelheid
+Een ander punt waar ik rekening mee wil houden bij het maken van mijn front-end, is de laadsnelheid van pagina's en performance van de website.
+Om een idee te krijgen over hoe het hiermee is, heb ik gebruik gemaakt van Google Lighthouse [Link chrome extensie](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=nl)
+![image](https://user-images.githubusercontent.com/101703190/170966941-4c5a4d16-562b-41cb-a490-09161b91d3c0.png)
+
+Hierboven kun je een deel van het report zien.
+In dit report kun je zien hoelang mijn webpagina erover doet om te laden, verder kun je dit soort tools gebruiken om de code verder te optimaliseren.
+Hierdoor wordt de website sneller, wat voor een gebruiker een stuk fijner is.
+
