@@ -3,7 +3,7 @@ Portfolio en documentatie voor mijn semester 3 van Fontys HBO-ICT
 
 # Inhoud
 
-[Learning outcome 1. Web application (IP&GP)](#Learning-outcome-1.-Web-application)
+[Learning outcome 1. Web application (IP&GP)](#Learning-outcome-1-Web-application)
 
 [Learning outcome 2. Software quality (IP)](#Learning-outcome-2.-Software-quality)
 
@@ -19,7 +19,7 @@ Portfolio en documentatie voor mijn semester 3 van Fontys HBO-ICT
 
 [Learning outcome 8. Professional (IP&GP)](#Learning-outcome-8.-Professional)
 
-# Learning outcome 1. Web application
+# Learning outcome 1 Web application
 **Learning outcome:** You design and build **user-friendly**, **full-stack** web applications.
 
 **Clarification:**
