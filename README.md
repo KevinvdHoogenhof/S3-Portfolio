@@ -32,8 +32,11 @@ Om deze leeruitkomst aan te kunnen tonen heb ik een ontwerp gemaakt van de appli
 De verschillende componenten van mijn software kunnen los van elkaar worden ontwikkeld end getest. 
 Verder kun je iedere component in een losse docker container runnen.
 
-#### Front-end
+#### User friendly
+Informatie over hoe ik mijn applicatie user friendly maak is te vinden onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#ux
 
+### Full-stack
+#### Front-end
 Mijn keuzes over de front-end kunnen gevonden worden onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Front-end-development   
 Mijn keuze voor het framework React.js wordt meer uitgelegd onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Keuze-front-end   
 De code voor mijn front-end kun je vinden op https://github.com/KevinvdHoogenhof/novelsite-frontend   
@@ -41,7 +44,6 @@ Ik heb ook nog een tweede front-end gemaakt. Dit is een front-end speciaal voor 
 Je kunt deze vinden op https://github.com/KevinvdHoogenhof/novelsite-frontend-admin
 
 #### Back-end
-
 Mijn uitleg over mijn keuze van de back-end kun je vinden onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Back-end-development   
 Mijn keuze over mijn ORM en het databehoud kan onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Data-behoud worden gevonden.   
 De back-end code kan gevonden worden op <https://github.com/KevinvdHoogenhof/novelsite-backend> 
@@ -49,6 +51,15 @@ De back-end code kan gevonden worden op <https://github.com/KevinvdHoogenhof/nov
 ![image](https://user-images.githubusercontent.com/101703190/170834329-431fcfcf-5880-43fd-8e2d-1b0a3e89da9f.png)
 
 Hierboven is een afbeelding waarin je kunt zien hoe alle componenten draaien in Docker Desktop.
+
+#### Groepsproject
+voor het groepsproject hebben wij ook een applicatie gemaakt.
+Ik heb hierbij vooral aan de back-end gewerkt.
+Zo heb ik bijvoorbeeld gewerkt aan de logica die bij de sql database hoort.
+Hierbij heb ik er ook voor gezorgd dat we werkende api endpoints hebben, die we dan in de front-end kunnen aanroepen.
+De repositories van ons groepsproject kun je hier vinden:
+
+https://github.com/kerimcanguney/WOC-Front-End & https://github.com/kerimcanguney/WOC-Back-End
 
 # Learning outcome 2. Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
