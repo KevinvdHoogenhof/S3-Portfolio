@@ -148,6 +148,15 @@ Zie: https://github.com/KevinvdHoogenhof/novelsite-frontend-admin#readme
 
 Ook hier kun je de heel simpel de containers locaal laten draaien.
 
+#### Codescans
+![image](https://user-images.githubusercontent.com/101703190/170978578-1850996e-6be2-48f0-b594-968cc35b3afc.png)
+
+Hierboven is een afbeelding te zien van een pull request op mijn back-end.
+Hierin is te zien hoe ik codescans uitvoer op mijn code.
+Deze scans staan ook in een workflow en worden iedere keer uitgevoerd als ik een pull request aanmaak.
+Hierdoor heb ik nogmaals een goed overzicht over eventuele problemen in de code.
+Verder krijg ik ook een hoop suggesties door de codescans die ik kan gebruiken om mijn code te verbeteren.
+
 #### Conclusie
 Met de CI workflows die ik heb opgesteld is het heel simpel om bepaalde delen van mijn project te draaien.
 Ook is het heel eenvoudig om verder te werken aan de code zelf.
@@ -168,7 +177,64 @@ als je alleen de admin front-end wilt gebruiken.
 
 Adapt your communication, working, and behaviour styles to reflect project stakeholders from different cultures;
 
-Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.  
+Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.
+
+### Cultuur
+#### Wat is cultuur?
+Ik zie cultuur als dat wat de mens maakt wie hij is.
+Ik bedoel hiermee hoe iemand zich gedraagt en wat dat wat mensen samenbrengt.
+Omdat cultuur door de samenleving ontstaat en wordt doorgegeven, zullen mensen met dezelfde cultuur vaak makkelijker met elkaar kunnen opschieten.
+
+#### Voorbeelden van culturele verschillen in mijn studie/leven
+Op onze school komen een hoop mensen van verschillende culturen bij elkaar.
+Een vershil tussen iedereen kan bijvoorbeeld de muziek zijn waar je graag naar luistert, of de kleren die je draagt.
+Doordat verschillende culturen andere voorkeuren hebben van allendaagse dingen zijn er constant culturele verschillen op school aanwezig.
+
+#### Wat is mijn cultuur?
+Ik zou zeggen dat ik gewoon een Nederlandse cultuur heb.
+Ik ben op zich wel een van Nederlandse gerechten zoals stroopwafels en vind het ook leuk om naar populaire nederlandse sporten zoals schaatsen te kijken.
+Ik zou dit echter zelf niet gaan doen, omdat ik daar niks aanvindt, maar om deze sporten op tv te bekijken vindt ik wel leuk.
+
+#### Hoe pas je groepscommunicatie aan aan culturele verschillen?
+Het was voor ons niet echt nodig ons aan te passen an verschillen, omdat we elkaar al goed kenden.
+Om ervoor te zorgen dat wij ons aanpassen aan de moderne cultuur doen wij wel zoveel mogelijk in het Engels.
+Dit kun je bijvoorbeeld terugzien in de code die wij hebben geschreven, waarin wij variabelen enzo eigenlijk altijd een Engelse benaming geven.
+Binnen software zijn nou eenmaal een hoop dingen internationaal wat betekent dat Engels veel gebruikt wordt.
+Omdat wij hier nu al mee gaan werken hoeven we later niet nog een extra overstap te maken.
+
+### Ethiek
+#### Wat is ethiek binnen software engineering?
+Ethiek is de wetenschappelijke studie van het moraal.
+Hiermee wordt bedoeld, dat wat moreel juist is om te doen.
+
+Ethiek wordt gebruikt om aan te doen hoe correct een actie is.
+Binnen software engineering geeft ethiek aan hoe je je hoort te gedragen in een professionele omgeving.
+Hierbij horen de ethiek van culturele verschillen, software, source code en communicatie.
+
+Ook hoor je als software engineer na te denken over de invloed van jouw software op de gebruikers.
+
+#### Waarom is ethiek belangrijk binnen software engineering?
+Net zoals bij andere takken is het niet mogelijk om alleen op geld te focussen.
+Als je dit doet zullen gebruikers vaak snel schade kunnen ondervinden van jouw product.
+Een bekend voorbeeld hiervan is oplichting.
+
+Als software engineer hoor je verantwoordelijk te handelen en moet je bewust zijn van de impact van jouw software.
+
+Zie: https://www.acm.org/code-of-ethics
+
+Deze richtlijnen omschrijven wat je kunt doen om ethische principes te gebruiken binnen jouw werk.
+
+#### Hoe kun je als software engineer bewust zijn van ethische aspecten binnen je werk?
+Om ervoor te zorgen dat iedereen gebruik maakt van dezelfde ethische waardes, is het belangrijk om er met jouw teamleden over te praten en afspraken te maken.
+In dit gesprek kun je jouw ethische waardes delen en samen beslissingen maken over hoe je ermee omgaat.
+Door over ethiek te praten zal de werkomgeving een stuk fijner worden, omdat iedereen dan met een goed gevoel kan werken.
+
+#### Welke ethische aspecten spelen een rol in ons project?
+Omdat ik een persoonlijk project maak verwacht ik niet dat er ethische conflicten zullen komen.
+Wij hebben namelijk een applicatie gebouwd die je lokaal uitvoert.
+Verder hoef je ook geen gevoelige data door te sturen of op te slaan.
+Je kunt namelijk de gegevens voor test accounts van de applicatie in de code vinden.
+Het doel van ons project is ook vooral om een PIM systeem te maken waarmee we producten kunnen laten zien, niet om allerlei gegevens van gebruikers op te slaan.
 
 # Learning outcome 6. Requirements and Design
 **Learning outcome**: You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques.**
@@ -176,6 +242,21 @@ Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Et
 **Clarification:**
 
 **Multiple types of test techniques:** You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.
+
+Om ervoor te zorgen dat ons product voldoet aan de verwachtingen van de klant, doen wij ons best om de feedback die wij krijgen goed te verwerken.
+Wij proberen ook iedere keer dat we elkaar spreken feedback te krijgen die ons kan helpen en ervoor zorgt dat wij weten wat wij nog kunnen doen.
+Doordat we deze feedback hebben kunnen we die meenemen wanneer we de sprint gaan plannen.
+In deze sessie bespreken we wat we willen gaan doen en hoe we het eruit willen laten zien.
+
+Een goed voorbeeld van dit proces hadden we in het begin van het semester.
+Wij hadden toen namelijk goed onderzocht wat voor keuzes we konden maken kwa database.
+Uiteindelijk waren wij van plan om nosql te gebruiken voor de producten en sql voor alles omtreft accounts.
+Dit hebben wij toen ook voorgesteld aan de opdrachtgever en zij gaven aan dat zij dit een prima keuze vonden.
+
+Om de kwaliteit van ons product aan te kunnen tonen hebben wij testen geschreven om te laten zien dat alles werkt zoals we willen.
+Verder maken wij ook bij het groepsproject gebruikt van codescans.
+Deze lopen bij pull requests en helpen ons ervoor te zorgen dat de softwarekwaliteit in orde blijft.
+Verder gebruiken wij ook de feedback van de opdrachtgever om in te kunnen zien welke aspecten van onze applicatie goed zijn en welke nog verbeterd kunnen worden.
 
 # Learning outcome 7. Business processes
 **Learning outcome:** You analyze and describe **simple** business processes that are **related** to your project.
