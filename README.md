@@ -5,19 +5,19 @@ Portfolio en documentatie voor mijn semester 3 van Fontys HBO-ICT
 
 [Learning outcome 1. Web application (IP&GP)](#Learning-outcome-1-Web-application)
 
-[Learning outcome 2. Software quality (IP)](#Learning-outcome-2.-Software-quality)
+[Learning outcome 2. Software quality (IP)](#Learning-outcome-2-Software-quality)
 
-[Learning outcome 3. Agile method (GP)](#Learning-outcome-3.-Agile-method)
+[Learning outcome 3. Agile method (GP)](#Learning-outcome-3-Agile-method)
 
-[Learning outcome 4. CI/CD (IP)](#Learning-outcome-4.-CI/CD)
+[Learning outcome 4. CI/CD (IP)](#Learning-outcome-4-CI/CD)
 
-[Learning outcome 5. Cultural differences and ethics (GP)](#Learning-outcome-5.-Cultural-differences-and-ethics)
+[Learning outcome 5. Cultural differences and ethics (GP)](#Learning-outcome-5-Cultural-differences-and-ethics)
 
-[Learning outcome 6. Requirements and Design (GP)](#Learning-outcome-6.-Requirements-and-Design)
+[Learning outcome 6. Requirements and Design (GP)](#Learning-outcome-6-Requirements-and-Design)
 
-[Learning outcome 7. Business processes (GP)](#Learning-outcome-7.-Business-processes)
+[Learning outcome 7. Business processes (GP)](#Learning-outcome-7-Business-processes)
 
-[Learning outcome 8. Professional (IP&GP)](#Learning-outcome-8.-Professional)
+[Learning outcome 8. Professional (IP&GP)](#Learning-outcome-8-Professional)
 
 # Learning outcome 1 Web application
 **Learning outcome:** You design and build **user-friendly**, **full-stack** web applications.
@@ -61,7 +61,7 @@ De repositories van ons groepsproject kun je hier vinden:
 
 https://github.com/kerimcanguney/WOC-Front-End & https://github.com/kerimcanguney/WOC-Back-End
 
-# Learning outcome 2. Software quality 
+# Learning outcome 2 Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
 
 **Clarification:**
@@ -81,7 +81,7 @@ Doordat de testen dan draaien bij ieder pull request kan ik in dit request zien 
 Zie ook: https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#pull-requests
 Hier kun je meer informatie vinden over pull requests en github actions in het onderzoek wat ik hiernaar heb gedaan.
 
-# Learning outcome 3. Agile method
+# Learning outcome 3 Agile method
 **Learning outcome:** You **choose** and implement the most suitable agile software development method for your software project.
 
 **Clarification:**
@@ -113,7 +113,7 @@ Hiermee kunnen wij dan ook rekening houden.
 Hieronder staat een afbeelding waarin ons scrum proces staat afgebeeld:   
 ![scrum-framework-example](https://user-images.githubusercontent.com/101703190/170763905-e3e050eb-ab16-4ac4-87fa-203edb09b0a6.jpg)
 
-# Learning outcome 4. CI/CD
+# Learning outcome 4 CI/CD
 **Learning outcome:** You **design and implement** a (semi)automated software release process that matches the needs of the project context.
 
 **Clarification:**
@@ -166,7 +166,7 @@ Dit toont ook nogmaals mooi aan hoe alle services los van elkaar kunnen werken. 
 Sommige hebben uiteraard wel een andere nodig om goed te kunnen werken, maar het is bijvoorbeeld niet nodig om de normale front-end te laten draaien,
 als je alleen de admin front-end wilt gebruiken.
 
-# Learning outcome 5. Cultural differences and ethics
+# Learning outcome 5 Cultural differences and ethics
 **Learning outcome:** You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.
 
 **Clarification:**
@@ -236,7 +236,7 @@ Verder hoef je ook geen gevoelige data door te sturen of op te slaan.
 Je kunt namelijk de gegevens voor test accounts van de applicatie in de code vinden.
 Het doel van ons project is ook vooral om een PIM systeem te maken waarmee we producten kunnen laten zien, niet om allerlei gegevens van gebruikers op te slaan.
 
-# Learning outcome 6. Requirements and Design
+# Learning outcome 6 Requirements and Design
 **Learning outcome**: You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques.**
 
 **Clarification:**
@@ -258,7 +258,7 @@ Verder maken wij ook bij het groepsproject gebruikt van codescans.
 Deze lopen bij pull requests en helpen ons ervoor te zorgen dat de softwarekwaliteit in orde blijft.
 Verder gebruiken wij ook de feedback van de opdrachtgever om in te kunnen zien welke aspecten van onze applicatie goed zijn en welke nog verbeterd kunnen worden.
 
-# Learning outcome 7. Business processes
+# Learning outcome 7 Business processes
 **Learning outcome:** You analyze and describe **simple** business processes that are **related** to your project.
 
 **Clarification:**
@@ -268,7 +268,7 @@ Verder gebruiken wij ook de feedback van de opdrachtgever om in te kunnen zien w
 **Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them). or
 Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance).
 
-# Learning outcome 8. Professional
+# Learning outcome 8 Professional
 **Learning outcome:** You act in a **professional manner** during software development and learning.
 
 **Clarification:**
