@@ -22,57 +22,48 @@
 [UX design](#UX)
 
 # User stories
-1. Als gebruiker wil ik een overzicht kunnen zien van alle boeken om te kunnen zien welke boeken ik uit kan kiezen. 
-
+#### 1. Als gebruiker wil ik een overzicht kunnen zien van alle boeken om te kunnen zien welke boeken ik uit kan kiezen. 
 Acceptatiecriteria:  
-
 - Ik kan de titel/auteur en omslagafbeelding van een boek zien.  
-- Er is een melding als er geen boeken worden gevonden. 
-1. Als gebruiker wil ik de informatie van een boek kunnen bekijken om meer over het boek te weten te komen. 
+- Er is een melding als er geen boeken worden gevonden.
 
+#### 2. Als gebruiker wil ik de informatie van een boek kunnen bekijken om meer over het boek te weten te komen. 
 Acceptatiecriteria:
-
 - Ik alle informatie van dit boek zien.
 - Ik kan zien wat andere gebruikers van dit boek vinden.
 - Ik kan zien of dit boek tot mijn favorieten toebehoort.
 - Er is een melding als het boek niet kan worden gevonden.
-1. Als gebruiker wil ik een boek als favoriet kunnen toevoegen zodat ik het boek kan bewaren en makkelijk terugkijken. 
 
+#### 3. Als gebruiker wil ik een boek als favoriet kunnen toevoegen zodat ik het boek kan bewaren en makkelijk terugkijken. 
 Acceptatiecriteria:
-
 - De gebruiker kan een boek toevoegen als favoriet.
 - Er wordt getoond wanneer een boek een favoriet boek is.
-1. Als administrator wil ik boeken kunnen toevoegen om nieuwe boeken op de site te zetten die gebruikers kunnen bekijken. 
 
+#### 4. Als administrator wil ik boeken kunnen toevoegen om nieuwe boeken op de site te zetten die gebruikers kunnen bekijken. 
 Acceptatiecriteria:
-
 - De informatie van een nieuw boek kan worden ingevuld.
 - De informatie wordt gecontroleerd of deze in de juiste vorm staat.
 - Er is een melding wanneer er iets mist/wanneer dit in de foute vorm staat.
-1. Als administrator wil ik boeken kunnen aanpassen om incorrecte/gewijzigde informatie van een boek bij te werken. 
 
+#### 5. Als administrator wil ik boeken kunnen aanpassen om incorrecte/gewijzigde informatie van een boek bij te werken. 
 Acceptatiecriteria:
-
 - Er kunnen wijzigingen gemaakt worden aan de informatie van een boek.
 - Er is een melding wanneer er iets mist/wanneer dit in de foute vorm staat.
-1. Als administrator wil ik boeken kunnen verwijderen om ongeldige boeken van de site te halen.
 
+#### 6. Als administrator wil ik boeken kunnen verwijderen om ongeldige boeken van de site te halen.
 Acceptatiecriteria:
-
 - Boeken kunnen worden verwijderd.
 - Er is een melding die toont dat het boek is verwijderd.
-1. Als gebruiker wil ik een boek kunnen beoordelen zodat ik mijn mening over het boek kwijt kan. 
 
+#### 7. Als gebruiker wil ik een boek kunnen beoordelen zodat ik mijn mening over het boek kwijt kan. 
 Acceptatiecriteria:
-
 - Je kunt een comment achter laten op een boek.
 - De comments worden bij het juiste boek opgeslagen.
 - Er wordt gecontroleerd of alle velden zijn ingevuld en geldig zijn.
 - Er is een melding wanneer er iets mist/wanneer dit in de foute vorm staat.
-1. Als gebruiker wil ik mijn favorieten (favoriete boeken) kunnen bekijken, zodat ik een makkelijk inzicht heb over de boeken die ik heb gelezen/wil gaan lezen. 
 
+#### 8. Als gebruiker wil ik mijn favorieten (favoriete boeken) kunnen bekijken, zodat ik een makkelijk inzicht heb over de boeken die ik heb gelezen/wil gaan lezen. 
 Acceptatiecriteria:
-
 - Je kunt je favoriete boeken bekijken.
 - Er is een melding als er geen favorieten zijn.
 
