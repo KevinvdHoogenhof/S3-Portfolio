@@ -28,25 +28,30 @@ Portfolio en documentatie voor mijn semester 3 van Fontys HBO-ICT
 
 **Full-stack:** You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
-Om deze leeruitkomst aan te kunnen tonen heb ik een ontwerp gemaakt van de applicatie die ik wil gaan bouwen. Zie https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#C4-model voor het C4 model, wat ik voor deze mijn applicatie heb gemaakt.    
+Om deze leeruitkomst aan te kunnen tonen heb ik een ontwerp gemaakt van de applicatie die ik wil gaan bouwen. Zie [C4-model](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#C4-model) voor het C4 model, wat ik voor deze mijn applicatie heb gemaakt.    
 De verschillende componenten van mijn software kunnen los van elkaar worden ontwikkeld end getest. 
 Verder kun je iedere component in een losse docker container runnen.
 
 #### User friendly
-Informatie over hoe ik mijn applicatie user friendly maak is te vinden onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#ux
+Informatie over hoe ik mijn applicatie user friendly maak is te vinden onder [Documentatie UX](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#ux)
 
 ### Full-stack
 #### Front-end
-Mijn keuzes over de front-end kunnen gevonden worden onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Front-end-development   
-Mijn keuze voor het framework React.js wordt meer uitgelegd onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Keuze-front-end   
-De code voor mijn front-end kun je vinden op https://github.com/KevinvdHoogenhof/novelsite-frontend   
+Mijn keuzes over de front-end kunnen gevonden worden onder [Front-end development](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Front-end-development)
+
+Mijn keuze voor het framework React.js wordt meer uitgelegd onder [Keuze front-end](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Keuze-front-end)
+
+De code voor mijn front-end kun je vinden op [Novelsite-frontend](https://github.com/KevinvdHoogenhof/novelsite-frontend)
+
 Ik heb ook nog een tweede front-end gemaakt. Dit is een front-end speciaal voor admin gebruikers.
-Je kunt deze vinden op https://github.com/KevinvdHoogenhof/novelsite-frontend-admin
+Je kunt deze vinden op [Novelsite-frontend-admin](https://github.com/KevinvdHoogenhof/novelsite-frontend-admin)
 
 #### Back-end
-Mijn uitleg over mijn keuze van de back-end kun je vinden onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Back-end-development   
-Mijn keuze over mijn ORM en het databehoud kan onder https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Data-behoud worden gevonden.   
-De back-end code kan gevonden worden op <https://github.com/KevinvdHoogenhof/novelsite-backend> 
+Mijn uitleg over mijn keuze van de back-end kun je vinden onder [Back-end development](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Back-end-development)
+
+Mijn keuze over mijn ORM en het databehoud kan onder [Data behoud](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#Data-behoud) worden gevonden.
+
+De back-end code kan gevonden worden op [Novelsite-backend](https://github.com/KevinvdHoogenhof/novelsite-backend)
 
 ![image](https://user-images.githubusercontent.com/101703190/170834329-431fcfcf-5880-43fd-8e2d-1b0a3e89da9f.png)
 
@@ -59,7 +64,7 @@ Zo heb ik bijvoorbeeld gewerkt aan de logica die bij de sql database hoort.
 Hierbij heb ik er ook voor gezorgd dat we werkende api endpoints hebben, die we dan in de front-end kunnen aanroepen.
 De repositories van ons groepsproject kun je hier vinden:
 
-https://github.com/kerimcanguney/WOC-Front-End & https://github.com/kerimcanguney/WOC-Back-End
+[Groepsproject frontend](https://github.com/kerimcanguney/WOC-Front-End) & [Groepsproject backend](https://github.com/kerimcanguney/WOC-Back-End)
 
 # Learning outcome 2 Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
@@ -78,7 +83,7 @@ Ik wil ook nog de testen automatisch laten draaien in mijn CI op github actions.
 Hiermee zouden de testen automatisch worden gedraaid, iedere keer dat ik een nieuwe pull request aanmaak.
 Doordat de testen dan draaien bij ieder pull request kan ik in dit request zien of alles correct werkt, of dat ik nog eventuele veranderingen moet maken.
 
-Zie ook: https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#pull-requests
+Zie ook: [Research: pull requests](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#pull-requests)
 Hier kun je meer informatie vinden over pull requests en github actions in het onderzoek wat ik hiernaar heb gedaan.
 
 # Learning outcome 3 Agile method
@@ -91,10 +96,10 @@ Hier kun je meer informatie vinden over pull requests en github actions in het o
 #### Stand-up
 Binnen ons groepsproject werken wij op een agile manier.
 Wij doen namelijk iedere dag een stand-up, waarin we bespreken wat we die dag gaan doen en hoe we ervoor staan met het project.
-Ook kijken we hierbij regelmatig op ons github planbord (https://github.com/users/kerimcanguney/projects/1)
+Ook kijken we hierbij regelmatig op ons [GitHub planbord](https://github.com/users/kerimcanguney/projects/1)
 Hierop kunnen we eenvoudig zien wat we nog willen doen in deze sprint en waar we nog meer aan kunnen werken binnen ons project.
 Eventuele problemen waar we tegen aanlopen kunnen we ook snel hieraan toevoegen. 
-(Zie ook https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues)
+(Zie ook [GitHub issues](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues))
 
 #### Sprint review & sprint retrospective
 Wij werken dit semester met sprints. 
@@ -127,7 +132,7 @@ Dit pushen wordt uiteraard alleen gedaan als alles correct werkt.
 Als de CI geslaagd is kun je dit zien, vervolgens kun je op DockerHub de image zien onder mijn novelsite repository.
 
 Als je deze image wilt gebruiken kun je de stappen in de readme van mijn back-end volgen.
-Zie: https://github.com/KevinvdHoogenhof/novelsite-backend#readme  
+Zie: [Readme novelsite backend](https://github.com/KevinvdHoogenhof/novelsite-backend#readme)
 
 Na deze commando's uit te voeren heb je als het goed is tweede lopende Docker containers.
 Dit zijn de database container en de api zelf.  
@@ -140,11 +145,11 @@ Deze workflows doen hetzelfde als de back-end en bouwen een docker image die naa
 Door deze workflow kunnen we in een pull-request ook nogmaals zien of alles correct is geschreven.
 Mocht dit niet zo zijn, dan kunnen we nog wijzigingen in de code maken.
 
-Als je een of beide van deze projecten wilt uitvoeren kun je de stappen volgen in de readme van de front-end projecten.  
+Als je een of beide van deze projecten wilt uitvoeren kun je de stappen volgen in de readme van de front-end projecten.
 
-Zie: https://github.com/KevinvdHoogenhof/novelsite-frontend#readme   
+Zie: [Readme novelsite frontend](https://github.com/KevinvdHoogenhof/novelsite-frontend#readme) 
 
-Zie: https://github.com/KevinvdHoogenhof/novelsite-frontend-admin#readme
+Zie: [Readme novelsite frontend admin](https://github.com/KevinvdHoogenhof/novelsite-frontend-admin#readme)
 
 Ook hier kun je de heel simpel de containers locaal laten draaien.
 
@@ -220,7 +225,7 @@ Een bekend voorbeeld hiervan is oplichting.
 
 Als software engineer hoor je verantwoordelijk te handelen en moet je bewust zijn van de impact van jouw software.
 
-Zie: https://www.acm.org/code-of-ethics
+Zie: [ACM](https://www.acm.org/code-of-ethics)
 
 Deze richtlijnen omschrijven wat je kunt doen om ethische principes te gebruiken binnen jouw werk.
 
