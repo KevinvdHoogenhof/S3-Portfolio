@@ -111,7 +111,7 @@ Voordelen: 
 - Componenten zijn herbruikbaar. 
 
 Nadelen: 
-- Documentatie zou beter kunnen volgens developers (<https://talentopia.global/front-end/the-pros-and-cons-of-the-most-used-javascript-frameworks>) 
+- Documentatie zou beter kunnen volgens developers [Bron: Talentopia](https://talentopia.global/front-end/the-pros-and-cons-of-the-most-used-javascript-frameworks) 
 ### Angular 
 Voordelen: 
 - Uitgebreide documentatie 
@@ -119,7 +119,7 @@ Voordelen: 
 
 Nadelen: 
 - Beperkte vrijheid in het organiseren van code. 
-- Moeilijker te leren.(<https://www.imaginarycloud.com/blog/angular-vs-react/>) 
+- Moeilijker te leren.[Bron: Imaginarycloud](https://www.imaginarycloud.com/blog/angular-vs-react/) 
 ### Vue.js 
 Voordelen: 
 - Gebruikt een virtuele DOM, hierdoor kan gewijzigde data snel worden geladen op de pagina. 
@@ -155,7 +155,7 @@ Het opslaan van data kan op verschillende manieren, zoals:
 
 Deze disk-based methode houdt in dat er een database wordt gebruikt. Hierin wordt de data zo opgeslagen dat we deze later nog kunnen bekijken, bewerken en kunnen verwijderen.
 
-Volgens <https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-databases> zijn de volgende databases het meest populair:
+Volgens [Stackoverflow](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-databases) zijn de volgende databases het meest populair:
 
 - MySQL
 - PostgreSQL
@@ -169,7 +169,7 @@ Enkele voordelen van een ORM zijn: testbaarheid en herbruikbaarheid.
 
 Het is dus belangrijk om een ORM te zoeken die past bij mijn back-end. 
 
-Ik heb ervoor gekozen om Entity Framework Core te gebruiken. Dit is namelijk een veelgebruikte ORM voor ASP.NET Core projecten. Ik had hier ook duidelijke documentatie over gevonden (<https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx>) waarin staat hoe ik dit kan gebruiken. Het fijne van Entity Framework is dat het eenvoudig is om migraties te maken en dus met de database te verbinden. Ook heb je voor Entity Framework een handige In-memory package. Deze kan worden gebruikt om de applicatie te testen. Het in-memory testen is nog eens extra fijn door data-seeding, wat ik gebruik om snel data toe te kunnen voegen aan de database.
+Ik heb ervoor gekozen om Entity Framework Core te gebruiken. Dit is namelijk een veelgebruikte ORM voor ASP.NET Core projecten. Ik had hier ook duidelijke documentatie over gevonden [EFcore documentatie](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx) waarin staat hoe ik dit kan gebruiken. Het fijne van Entity Framework is dat het eenvoudig is om migraties te maken en dus met de database te verbinden. Ook heb je voor Entity Framework een handige In-memory package. Deze kan worden gebruikt om de applicatie te testen. Het in-memory testen is nog eens extra fijn door data-seeding, wat ik gebruik om snel data toe te kunnen voegen aan de database.
 
 # UX
 Om ervoor te zorgen dat mijn applicatie user friendly is, ga ik ervoor zorgen dat het simpel is om gebruik te maken van mijn website.
