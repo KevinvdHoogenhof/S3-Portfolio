@@ -86,7 +86,7 @@ Verder gebruiken wij ook het planbord voor ons groepsproject.
 Op dit planbord hebben wij alle user stories staan, die we aan het begin hebben opgesteld.
 Tijdens een sprint planning pakken wij enkele van deze op en splitsen deze in kleinere issues die wij verdelen over de groep.
 
-# Hoe zou ik wat ik van dit onderzoek heb geleerd de volgende keer toepassen?
+## Hoe zou ik wat ik van dit onderzoek heb geleerd de volgende keer toepassen?
 Door dit onderzoek en GitHub gedurende het semester te leren heb ik redelijk goed geleerd hoe je hiermee kunt werken.
 De volgende keer zou ik sowieso ook bij mijn eigen project user stories in github issues zetten en een planbord maken.
 Hiermee kan ik dan ook makkelijker voor mezelf bijhouden wat ik nog zou willen doen en hoelang iets duurt.
