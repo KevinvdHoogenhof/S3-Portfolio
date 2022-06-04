@@ -107,11 +107,11 @@ GitHub is namelijk een erg fijn platform om je project mee te ontwikkelen.
 
 ## GitHub repositories van mijn projecten en het groepsproject en het planbord van ons groepsproject:
 
+[Novelsite-backend](https://github.com/KevinvdHoogenhof/novelsite-backend)
+
 [Novelsite-frontend](https://github.com/KevinvdHoogenhof/novelsite-frontend)
 
 [Novelsite-frontend-admin](https://github.com/KevinvdHoogenhof/novelsite-frontend-admin)
-
-[Novelsite-backend](https://github.com/KevinvdHoogenhof/novelsite-backend)
 
 [WOC-backend](https://github.com/kerimcanguney/WOC-Back-End)
 
