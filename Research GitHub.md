@@ -10,7 +10,7 @@ GitHub wordt door heel veel mensen gebruikt om hun project goed te onderhouden, 
 ## Onderzoeksvraag 
 Hoe kan ik GitHub gebruiken om mijn project te managen? 
 
-## GitHub Issues 
+## Hoe kun je GitHub issues gebruiken om user stories bij te houden?
 GitHub Issues is een handige manier om je user stories bij te houden en te weten wat je nog allemaal moet/ wilt gaan doen binnen jouw project. 
 Doordat GitHub issues geïntegreerd is met GitHub zijn er ook een hoop handige functies waar je gebruik van kunt maken. 
 Je kunt bijvoorbeeld issues koppelen aan pull requests of een branch. 
@@ -24,9 +24,10 @@ Ten slotte kun je ook nog een project bord aanmaken, waarop je heel snel alle re
 om een nog beter overzicht te krijgen van hoe het project ervoor staat.    
 [Bron: GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) 
 
-## Branches 
-Een andere nuttige functie binnen GitHub zijn de branches. 
-Branches kunnen worden gebruikt om nieuwe functies te ontwikkelen, bugs te fixen of dingen uit te proberen. 
+## Hoe kun je nieuwe code toevoegen in jouw project? 
+Een andere nuttige functie binnen GitHub zijn de branches.
+Je kunt nieuwe code die je schrijft naar een branch toe pushen.
+Een branch kan worden gebruikt om nieuwe functies te ontwikkelen, bugs te fixen of dingen uit te proberen. 
 Dit doe je dan binnen een losse omgeving, waardoor je makkelijk terug kunt naar hoe het eerst was als iets niet werkt of bijvoorbeeld niet zo is als je had gedacht.   
 
 Binnen een project is er altijd een hoofd-branch, dit wordt vaak de main/master branch genoemd. 
@@ -39,7 +40,7 @@ Binnen een project kun je branches dus ook handig gebruiken om een functie te ma
 Hiermee is het dan ook gelijk overzichtelijk waar een branch voor is.    
 [Bron: GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) 
 
-## Merging 
+## Hoe voegen we code van verschillende branches samen?
 Om branches samen te kunnen voegen moet je ze met elkaar mergen. 
 Hierbij worden de gemaakte wijzigingen toegepast op een andere (vaak dus de main) branch.  
 
@@ -50,7 +51,7 @@ Hierin wordt dan eerst gekeken of alles correct is, en als dit zo is, kan de pul
 waardoor de wijzingen in de main branch kunnen worden gemerged.  
 [Bron: GitHub](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github) 
 
-## Pull requests 
+## Hoe kunnen we het samenvoegen van code controleren? 
 Zoals ik ook al beschreef bij het mergen kun je binnen GitHub pull requests aanmaken, maar wat houdt dit nou in?  
 
 Een pull request wordt gebruikt om anderen te laten zien welke wijzigingen je hebt gemaakt aan een branch. 
@@ -60,7 +61,7 @@ Hiermee kun je eventuele problemen/fouten oplossen voordat de pull request wordt
 Een andere functie die handig is om te gebruiken bij een pull request is GitHub Actions. 
 Hiermee kun je namelijk automatisch testen laten lopen, waardoor je kunt checken of de code die je wilt toevoegen/wijzigen aan de main branch, nog steeds correct werkt. 
 
-## GitHub Actions 
+## Hoe voeg je CI/CD toe met behulp van GitHub
 GitHub actions wordt er dus voor gebruikt om ervoor te zorgen dat je automatisch dingen kunt bouwen testen en deployen. 
 Je kunt hiermee dus bijvoorbeeld ervoor zorgen dat worden getest en gemergde pull requests wordt gedeployt naar een server.  
 
@@ -69,8 +70,54 @@ Een workflow is een automatisch proces waarin je jobs kunt aanmaken die je kunt 
 Zo kun je er dus bijvoorbeeld een maken die testen runt op een pull request zodat je kunt kijken of alles klopt.  
 [Bron: GitHub](https://docs.github.com/en/actions ) 
 
-# Conclusie
+# Conclusie & validatie
 Github kan ervoor zorgen dat jouw project op een handige en overzichtelijke manier wordt gemanaged, zonder iets onnodig complex te maken.
+
+Ik toon wat ik heb onderzocht aan binnen mijn eigen projecten en github issues/het planbord wordt gebruikt binnen ons groepsproject.
+Hiermee valideer ik ook gelijk datgene wat ik heb onderzocht en pas het toe in mijn project.
+In mijn eigen project heb ik CI/CD kunnen toevoegen door github actions te gebruiken.
+Onder de 'actions' tab kun je deze actions zien en hoe ze werken.
+Verder kun je ook zien hoe ik nieuwe code toevoeg in de commit geschiedenis van het project.
+Je kunt hier ook zien dat ik verschillende branches gebruikte voor de desbetreffende toevoegingen aan mijn project.
+
+Voor het groepsproject geld hetzelfde als bij mijn eigen project.
+Hier hebben wij ook losse branches gebruikt om aan nieuwe functies te werken.
+Verder gebruiken wij ook het planbord voor ons groepsproject.
+Op dit planbord hebben wij alle user stories staan, die we aan het begin hebben opgesteld.
+Tijdens een sprint planning pakken wij enkele van deze op en splitsen deze in kleinere issues die wij verdelen over de groep.
+
+# Hoe zou ik wat ik van dit onderzoek heb geleerd de volgende keer toepassen?
+Door dit onderzoek en GitHub gedurende het semester te leren heb ik redelijk goed geleerd hoe je hiermee kunt werken.
+De volgende keer zou ik sowieso ook bij mijn eigen project user stories in github issues zetten en een planbord maken.
+Hiermee kan ik dan ook makkelijker voor mezelf bijhouden wat ik nog zou willen doen en hoelang iets duurt.
+
+De branches, mergen hiervan en pull requests zijn allemaal functies waarmee ik dit semester heb leren werken.
+Voor mijn volgende project zou ik hier al mee bekent zijn dus hoef ik deze niet nog een keer te onderzoeken.
+
+Binnen een nieuw project zou ik ook sneller workflows kunnen aanmaken, omdat ik nu weet hoe ik dit kan doen.
+Dit ben ik ook zeker van plan, omdat deze heel handig zijn om je code te controleren.
+
+Ook zou ik de volgende keer het pushen naar Dockerhub zo snel mogelijk opzetten.
+Dit was namelijk een van de dingen die ik graag werkend wilde krijgen in dit semester, omdat dit mij erg handig leek om nieuwe code te schrijven.
+Nu dit mij is gelukt, kan ik ook met zekerheid zeggen dat dit daadwerkelijk het geval is.
+Het is nu namelijk heel eenvoudig voor mij om de containers op te starten die ik nodig heb in Docker desktop en dan aan de andere onderdelen te werken.
+
+Al met al zou ik alles wat ik gedurende dit semester heb geleerd over GitHub de volgende keer sneller en beter toe willen passen.
+GitHub is namelijk een erg fijn platform om je project mee te ontwikkelen.
+
+## GitHub repositories van mijn projecten en het groepsproject en het planbord van ons groepsproject:
+
+[Novelsite-frontend](https://github.com/KevinvdHoogenhof/novelsite-frontend)
+
+[Novelsite-frontend-admin](https://github.com/KevinvdHoogenhof/novelsite-frontend-admin)
+
+[Novelsite-backend](https://github.com/KevinvdHoogenhof/novelsite-backend)
+
+[WOC-backend](https://github.com/kerimcanguney/WOC-Back-End)
+
+[WOC-frontend](https://github.com/kerimcanguney/WOC-Front-End)
+
+[WOC-planbord](https://github.com/users/kerimcanguney/projects/1)
 
 ## Andere bronnen   
 https://www.jobsity.com/blog/a-quick-guide-to-using-github-for-project-management  
