@@ -9,9 +9,9 @@ Natuurlijke is een simpele oplossing voor een veiliger wachtwoord om letters, ho
 maar hoe kunnen we als ontwikkelaar veilig met wachtwoorden omgaan? 
 
 ### Onderzoeksvraag 
-Hoe kan ik veilig wachtwoorden encrypten en opslaan in mijn database? 
+Hoe kan ik veilig wachtwoorden encrypten en opslaan in mijn database en deze managen in mijn backend applicatie? 
 
-## Problemen met geen encryptie 
+## Welke problemen heb je als je geen encryptie gebruikt? 
 In mijn onderzoeksvraag zeg ik dat ik wil gaan kijken hoe ik veilig wachtwoorden kan opslaan in mijn database, 
 maar eerst wil ik even toelichten waarom het nou niet veilig is om wachtwoorden op te slaan als plain-tekst (zonder encryptie). 
 De reden waarom we geen plain-tekst wachtwoorden in onze database willen hebben is, 
@@ -19,14 +19,15 @@ omdat alle wachtwoorden zichtbaar zijn voor een hacker als je database gecomprom
 Hierdoor loopt iedereen die zijn wachtwoord & eventuele andere gegevens in jouw database heeft staan groot gevaar. 
 Hackers kunnen dan namelijk personen die dezelfde wachtwoorden op verschillende sites gebruiken makkelijk hacken. 
 
-## Encryptie 
-Om te voorkomen dat een hacker direct alle wachtwoorden kan zien in een database, worden wachtwoorden geencrypt. 
-Er zijn hiervoor vele algoritmes, deze zijn echter lang niet allemaal even veilig. 
-De algoritmes die niet veilig zijn in dit geval zijn omkeerbare algoritmes. 
-Een hacker kan namelijk eenvoudig de logica van deze algoritmes vinden door verschillende wachtwoorden te testen tegen de geencrypte vorm van het wachtwoord. 
-Als dit eenmaal lukt kan hij snel ook de andere decrypten en heeft hij weer toegang tot alle wachtwoorden. 
+## Wat is encryptie?
+Om te voorkomen dat een hacker direct alle wachtwoorden kan zien in een database, worden wachtwoorden geencrypt.
+Er zijn hiervoor vele algoritmes, deze zijn echter lang niet allemaal even veilig.
+De algoritmes die niet veilig zijn in dit geval zijn omkeerbare algoritmes.
+Een hacker kan namelijk eenvoudig de logica van deze algoritmes vinden door verschillende wachtwoorden te testen tegen de geencrypte vorm van het wachtwoord.
+Als dit eenmaal lukt kan hij snel ook de andere decrypten en heeft hij weer toegang tot alle wachtwoorden.
+Om er voor te zorgen dat een hacker niet zomaar al je wachtwoorden kan kraken moeten we dus een ander algoritme gebruiken.
 
-## Hashen 
+## Wat is het hashen van een wachtwoord?
 Een veel voorkomende term bij wachtwoorden opslaan is hashen, maar wat houdt dit nu in? 
 Bij een hash van een wachtwoord kunnen we niet het wachtwoord uit de hash afleiden. 
 Dit klinkt misschien als een nadeel, maar het is niet nodig om het wachtwoord hieruit af te leiden. 
@@ -40,22 +41,23 @@ Omdat deze hashes hetzelfde zijn kunnen we met een simpele google search het wac
 Ook als je het wachtwoord niet direct kunt vinden zijn er andere manieren voor om hierachter te komen.
 Zo kun je bijvoorbeeld gebruik maken van de volgende methodes om een wachtwoord te kraken:
 
-### Brute force 
+## Voorbeelden van manieren om wachtwoorden te kraken
+#### Brute force 
 Een brute force attack is een veelgebruikte methode om iemand zijn wachtwoord te kunnen kraken. 
 Een hacker maakt hierbij gebruik van software die verschillende wachtwoorden probeert en loopt zo systematisch combinaties af. 
 Bij een brute force attack zijn zwakke wachtwoorden ook nog makkelijker te kraken. [Bron](https://realhosting.nl/helpdesk/wat-is-een-brute-force-attack/) 
 
-### Dictionary attack 
+#### Dictionary attack 
 Een dictionary attack is een brute force aanval waarbij de software op bepaalde termen of veelgebruikte wachtwoorden focust. 
 Als je meer weet over de gebruiker wiens wachtwoord je wilt stelen, 
 zou je ook dingen als zijn geboortejaar/datum / naam / favoriete dier gebruiken en hiervan combinaties maken die de software dan als wachtwoord gaat proberen. 
 
-### Rainbow table 
+#### Rainbow table 
 Een rainbow table is een tabel waarin allerlei wachtwoorden met hun bijbehorende hash staan. 
 Het kost dan wel wat tijd om een tabel te maken, maar als we deze eenmaal hebben is heel snel om een wachtwoord te kraken. 
 Je hoeft namelijk niet los alle hashes te berekenen. [Bron: Wikipedia](https://nl.wikipedia.org/wiki/Rainbow_table) 
 
-## Salt 
+## Wat is een salt en wat is het nut hiervan?
 Een salt wordt gebruikt om willekeurige data toe te voegen aan een hashfunctie. 
 Wanneer er gebruik wordt gemaakt van een salt, wordt het ook mogelijk om verschillende hashes van hetzelfde wachtwoord te krijgen. 
 Doordat de salt willekeurig is, is er een grotere kans dat de hash niet eerder is gebruikt. 
@@ -65,23 +67,25 @@ Een rainbow table kan niet worden gebruikt met een gesalte hash
 Als een gebruiker hetzelfde wachtwoord heeft, kan er geen gebruik gemaakt worden van software om tegelijk het wachtwoord van de andere gebruiker te vinden. 
 Als er een salt wordt gebruikt is de hash immers verschillend van elkaar. 
 
-## Pepper 
+## Wat is het nut van een pepper en hoe kun je deze gebruiken?
 Een pepper is een andere manier om gegevens toe te voegen aan een hash. 
 Een pepper wordt gebruikt voor alle gebruikers en wordt vaak opgeslagen in de configuration van een applicatie. 
 Als een hacker toegang krijgt tot de database zal hij dus ook nog de pepper moeten raden. 
 
-## Iteraties 
+## Wat zijn iteraties en hoe encrypt dit een wachtwoord beter?
 Een andere manier om een wachtwoord beter te encrypten is het aantal iteraties vergroten 
 [Bron](https://scottsauber.com/2018/01/29/increasing-password-hashing-iterations-with-asp-net-core-identity/#:~:text=Iterations%20is%20the%20%E2%80%9Cwork%20factor,password%20and%20hash%20it%20once.) 
 Wanneer je het aantal iteraties vergroot, hash je de hash en dan de dubbele hash, totdat je het aantal iteraties hebt behaalt. 
 Als je aantal iteraties vergroot kost dit ook meer tijd voor je CPU om deze operatie te voltooien. 
 Mocht iemand je database in handen krijgen zal het hun dus ook meer tijd kosten om de wachtwoorden te kraken. 
 
-# Combineren van de methodes 
+# Combineren van de methodes & validatie van het onderzoek
 Wanneer we een methode maken voor het opslaan van wachtwoorden kunnen we de methodes combineren. 
 Hierdoor krijgen we een methode die de wachtwoorden veiliger opslaat dan een simpele hash. 
-Hieronder kun je functie zien die ik heb gemaakt voor het encrypten van wachtwoorden in mijn back-end:    
-![image](https://user-images.githubusercontent.com/101703190/170258616-f11cb36b-369d-4205-83e3-bc4f2713e8c3.png)    
+Hieronder kun je functie zien die ik heb gemaakt voor het encrypten van wachtwoorden in mijn back-end:   
+
+![image](https://user-images.githubusercontent.com/101703190/170258616-f11cb36b-369d-4205-83e3-bc4f2713e8c3.png) 
+
 In deze functie kun je zien dat ik geen gebruik maak van een pepper. 
 Ik vond dit namelijk nog niet nodig voor mijn doeleinden. 
 Ik heb hier echter wel een salt die willekeurig wordt gegenereerd. 
@@ -91,13 +95,39 @@ om het wachtwoorden te hashen.
 De hash en salt worden dan vervolgens teruggegeven, zodat we deze in de database kunnen opslaan. 
 
 Wanneer iemand wil inloggen en we het wachtwoord moeten checken kunnen we de volgende functie gebruiken om te kijken of het ingevoerde wachtwoord overkomt met het opgeslagen wachtwoord.    
-![image](https://user-images.githubusercontent.com/101703190/170258785-53b67b5b-9956-42bb-a901-c0fb54422d73.png)    
-Hierboven kun je zien hoe we het ingevoerde wachtwoord opnieuw hashen me dezelfde salt en dan kijken of de hashes hetzelfde zijn. 
+
+![image](https://user-images.githubusercontent.com/101703190/170258785-53b67b5b-9956-42bb-a901-c0fb54422d73.png)   
+
+Hierboven kun je zien hoe we het ingevoerde wachtwoord opnieuw hashen me dezelfde salt en dan kijken of de hashes hetzelfde zijn.
+
+Na deze functie gemaakt te hebben heb ik dit natuurlijk ook getest of dit echt werkt.
+Ik heb hiervoor 3 simpele tests geschreven om dit aan te kunnen tonen.
+
+![image](https://user-images.githubusercontent.com/101703190/172017648-c875cd18-b5c4-43de-bb28-5ff58df99ebb.png)
+
+In deze afbeelding kun je de testen zien die ik heb gemaakt zien.
+In de eerste test kijken we of de gehashte wachtwoorden daadwerkelijk verschillend zijn.
+Dit willen we namelijk omdat een hacker anders makkelijk twee dezelfde wachtwoorden kan vinden, als hij er een zou hebben gekraakt.
+De andere testen zijn om te kijken of we nog steeds kunnen inloggen als gebruiker met een geldig wachtwoord en dat we met een ongeldig wachtwoord niet in kunnen loggen.
+Met deze testen kunnen we kijken of alles werkt zoals we willen.
+
+![image](https://user-images.githubusercontent.com/101703190/172017753-82d282ea-6bf1-496f-9810-5c854234de23.png)
+
+Hierboven kunnen we het resultaat van de testen zien.
+Zoals in deze afbeelding te zien is, zijn alle testen succesvol.
+Hiermee kan ik dus aantonen dat deze functies correct werken.
+
+Dit houdt in dat ik mijn wachtwoorden nu encrypted op kan slaan in de database en alsnog kan inloggen.
+Hiermee is het gelijk een heel stuk veiliger, omdat de wachtwoorden nu niet meer direct in de database staan.
 
 # Conclusie 
 Door dit onderzoek heb ik geleerd dat je tenminste een hash en salt wilt gebruikt om je wachtwoord te encrypten. 
 Hierdoor is namelijk een stuk moeilijker voor hackers om het wachtwoord te kraken. 
-Iets anders wat ik heb geleerd is dat het nog steeds handig is om sterke wachtwoorden te gebruiken, ondanks goede wachtwoord encryptie, omdat zwakke wachtwoorden nog steeds vrij snel kunnen worden gevonden. 
+Iets anders wat ik heb geleerd is dat het nog steeds handig is om sterke wachtwoorden te gebruiken, ondanks goede wachtwoord encryptie, omdat zwakke wachtwoorden nog steeds vrij snel kunnen worden gevonden.
+
+Verder heb ik dat wat ik heb onderzocht gevalideerd in mijn eigen project en gebruik ik dit om gebruikers in te laten loggen.
+
+[Zie Novelsite-backend](https://github.com/KevinvdHoogenhof/novelsite-backend)
 
 ## Andere bronnen   
 https://www.vaadata.com/blog/how-to-securely-store-passwords-in-database/  
