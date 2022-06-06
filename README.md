@@ -310,3 +310,11 @@ Tijdens de oplevering krijgen wij ook regelmatig feedback op verschillende punte
 Deze feedback nemen wij mee in de volgende sprint en wij doen ons best om dit toe te passen.
 Als het feedback is op een bijvoorbeeld een onderdeel van de applicatie dat anders moet dan maken wij hiervoor ook een issue aan op ons project bord.
 Hierdoor is het makkelijker om het probleem op te lossen op basis van de gekregen feedback.
+
+#### Reflectie
+Om nogmaals aan te tonen dat ik op een professionele manier bezig ben heb ik een reflectie gemaakt.
+
+Zie: [Reflectie](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md)
+
+In deze reflectie omschrijf ik wat ik goed vond gaan, wat beter kan en hoe ik een volgende keer dingen anders zou willen doen.
+Deze reflectie is ook bedoeld als terugblik op dit semester.
