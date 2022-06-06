@@ -21,6 +21,8 @@
 
 [UX design](#UX)
 
+[Testplan](#Testplan)
+
 # User stories
 #### 1. Als gebruiker wil ik een overzicht kunnen zien van alle boeken om te kunnen zien welke boeken ik uit kan kiezen. 
 Acceptatiecriteria:  
@@ -202,3 +204,48 @@ Hierboven kun je een deel van het report zien.
 In dit report kun je zien hoelang mijn webpagina erover doet om te laden, verder kun je dit soort tools gebruiken om de code verder te optimaliseren.
 Hierdoor wordt de website sneller, wat voor een gebruiker een stuk fijner is.
 
+# Testplan
+Om ervoor te zorgen dat mijn softwarekwaliteit hoog blijft, let ik onder andere op de volgende dingen:
+
+- Mijn code is overzichtelijk en te begrijpen
+- Naamgeving van variabelen enzo is duidelijk
+- Mocht er een probleem zijn, dan probeer ik dit op te lossen en niet eromheen te werken
+- De onderdelen doen wat ik wil dat ze doen en zitten niet vol met bugs
+
+### Backend testen
+Om ervoor te zorgen dat je kunt controleren of de code van mijn backend goed werkt, heb ik integratie en unit testen hiervoor geschreven.
+Met de integratie testen, test ik de endpoints van mijn api en met de unit testen de code achter de endpoints.
+
+Ik heb ervoor gekozen om voor alle functies en endpoints die ik wilde testen minstens een succes en fail geval te laten testen.
+Hierdoor kun je namelijk controleren of het werkt zoals je verwacht, ook wanneer er een verkeerde input is.
+
+De integratie testen heb ik gemaakt om aan te kunnen tonen dat mijn endpoints goed werken.
+Dit is erg nuttig om te weten voor de frontend, omdat ik namelijk kan zien hoe een endpoint werkt.
+
+Bij het schrijven van deze testen liep ik ook tegen verscheidene problemen aan.
+Deze heb ik met behulp van de debugger snel kunnen oplossen.
+
+##### Code coverage
+Omdat ik binnen mijn backend ervoor gekozen heb om integratie en unit testen te schrijven, heb ik hier een hoge code coverage.
+Code coverage is een manier om te controleren hoeveel code van jouw programma wordt getest.
+Omdat ik een ASP.NET CORE backend heb en in visual studio werk, kan ik zien boven de functies of en hoevaak ik deze test en wat het resultaat van deze testen is.
+Hiermee is het eenvoudig te controleren waar een probleem zit en of ik alles heb getest wat ik wilde testen.
+
+In een ideale situatie wil je natuurlijk alles testen, maar dit is lang niet altijd praktisch, aangezien testen ook veel tijd kost.
+Hierdoor worden vaak alleen essentiele dingen getest.
+
+### Frontend testen
+
+> to do
+
+### Geautomatiseerd testen
+Met behulp van GitHub actions kunnen we automatisch onze testen laten draaien.
+Door automatische testen toe te voegen, kun je bij een pull request makkelijk zien of je code goed werkt.
+Daarnaast kun je de code iedere keer opnieuw laten testen, waardoor je kunt zien of je niet per ongeluk een functie stuk hebt gemaakt.
+Je moet er uiteraard wel voor zorgen dat deze testen goed geschreven zien.
+Als je namelijk een test schrijft op een manier waarop hij wel slaagt, heb je er natuurlijk niets aan.
+Een ander belangrijk punt is dat je met een automatische test niet goed use cases kunt testen.
+
+Ik heb zelf geprobeerd om de testen die ik heb geschreven voor mijn backend automatisch te laten draaien.
+Dit is mij helaas niet gelukt, omdat ik de hele tijd tegen problemen aanliep waar hij de testen gewoon niet wil uitvoeren.
+Dit is dus zeker een punt waar ik een volgende keer zeker naar zou willen kijken, over hoe dit nou precies werkt.
