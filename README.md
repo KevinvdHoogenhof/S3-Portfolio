@@ -347,6 +347,11 @@ Als dat zo is kunnen wij dit ook gebruiken om code te schrijven die aan het ontw
 **Related:** Business processes during which the software that you are developing will be used (business processes that the software must support by fully or partially automating them). or
 Business processes needed for the success of your software development project (e.g., product release, market release, financial assurance).
 
+Zie: [Business proces](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Business%20proces.md) voor ons business proces.
+Hierin staat alles over welk proces wij hebben gekozen en de analyse hierbij.
+
+Zie: [Reflectie business proces](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#business-proces) voor mijn reflectie op het maken van dit business proces.
+
 # Learning outcome 8 Professional
 **Learning outcome:** You act in a **professional manner** during software development and learning.
 
