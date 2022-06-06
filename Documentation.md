@@ -257,6 +257,10 @@ Als ik zelf nog frontend testen zou gaan schrijven zou ik het gedrag op mijn pag
 Ik denk dat dit zeker een ding is waar ik de volgende keer meer aandacht aan kan besteden.
 De frontend testen zouden namelijk kunnen aantonen dat de frontend werkt zoals ik verwacht.
 
+##### Bronnen:
+Zie: [Fronteers](https://fronteers.nl/blog/2021/01/basics-van-front-end-testing#:~:text=Er%20zijn%20allerlei%20soorten%20software,ook%20daadwerkelijk%20kunt%20zien%20gebeuren.)
+en: [Espeo](https://espeo.eu/blog/front-end-testing-frameworks-2022/)
+
 ### Geautomatiseerd testen
 Met behulp van GitHub actions kunnen we automatisch onze testen laten draaien.
 Door automatische testen toe te voegen, kun je bij een pull request makkelijk zien of je code goed werkt.
