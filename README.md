@@ -92,9 +92,51 @@ Hier kun je meer informatie vinden over pull requests en github actions in het o
 
 **Choose:** You are aware of the most popular agile methods and their underlying agile principles. Your choice of a method is motivated and based on well-defined selection criteria and context analyses.
 
+#### Agile
+Gedurende dit semester werken wij op een agile manier.
+Dit houdt in dat wij een project uitvoeren waarbij wij rekening houden dat omstandigheden veranderen en hierop inspelen.
+Het belangrijkste doel hierbij is de klant, klanttevredenheid staat namelijk voorop.
+
+Bij een agile proces wordt een project ontwikkeld in korte sprint (iteraties).
+Aan het eind van iedere sprint wordt er software opgeleverd en aan de klant getoond om feedback te vragen.
+Door dit proces krijgt de klant meer inzicht in het proces en kan de software snel in de praktijk worden getest.
+
+![image](https://user-images.githubusercontent.com/101703190/172163951-c56855d9-9307-4d36-a215-2d53a1afa6be.png)
+
+#### Agile methodes
+Er zijn een hoop agile methodes die je kunt gebruiken als team.
+Ik heb hieronder een paar van de bekendste onderzocht.
+##### Scrum
+In de Scrum methode heeft ieder lid van de groep zijn eigen rol.
+Iedere dag wordt er een korte meeting gehouden waarin je het proces reviewt.
+Een van de rollen is scrum master, dit is de persoon die deze dagelijks meetings leidt.
+Een project wordt opgedeeld in verschillende taken, waaraan je kunt werken.
+Deze taken worden op een product backlog gezet, zodat iedereen kan zien wat er nog moet gebeuren en waaraan hij/zij zou kunnen werken.
+##### Lean
+Het uitgangspunt van de Lean-methode is waarde creeren voor de klant.
+De basis van de Lean filosofie ligt bij Toyota, hier hadden ze bedacht dat alleen processen waar de klant voor wil betalen nuttig zijn.
+De Lean-methode heeft 5 fases: Value (waarde), Value stream (proces), Flow, Pull, Perfection (streven naar perfectie).
+Deze fases worden doorlopen bij het proces.
+Dit proces is vooral geschikt voor grotere bedrijven, omdat het een andere metaliteit vereist.
+Een goede flow veriest namelijk een gebalanceerde productieketen.
+##### Kanban
+Het doel van Kanban is om het product op een zo efficient mogelijke manier te produceren.
+Om het proces op weg naar een product te visualiseren wordt een kanbanbord gebruikt.
+Dit is ingedeeld in: to-do, doing en done.
+Met dit bord heb je een goed inzicht in de taken die er zijn.
+Het bord heeft als doel om je proces te visualiseren, het work in progress te beperken, de flow bij te kunnen houden en het monitoren van het proces.
+
+#### Conclusie
+Er zijn veel verschillende methodes om op een agile manier te werken.
+Wij werken als groep met de Scrum-methode.
+Dit komt, omdat wij namelijk in sprints werken en met opleveringen, hier past scrum erg goed bij.
+Daarnaast moeten wij ook de retrospectives doen om terug te kijken op de sprints.
+Hiermee kunnen wij leren wat beter kan en wat wel goed ging.
+Scrum is dus een zeer geschikte keuze voor ons project, ook omdat dit goed aansluit bij de manier van onderwijs.
+Hieronder staan nog enkele agile manieren die wij gebruiken in ons proces.
+
 #### Stand-up
-Binnen ons groepsproject werken wij op een agile manier.
-Wij doen namelijk iedere dag een stand-up, waarin we bespreken wat we die dag gaan doen en hoe we ervoor staan met het project.
+Wij doen iedere dag een stand-up, waarin we bespreken wat we die dag gaan doen en hoe we ervoor staan met het project.
 Ook kijken we hierbij regelmatig op ons [GitHub planbord](https://github.com/users/kerimcanguney/projects/1)
 Hierop kunnen we eenvoudig zien wat we nog willen doen in deze sprint en waar we nog meer aan kunnen werken binnen ons project.
 Eventuele problemen waar we tegen aanlopen kunnen we ook snel hieraan toevoegen. 
@@ -116,6 +158,13 @@ Hiermee kunnen wij dan ook rekening houden.
 
 Hieronder staat een afbeelding waarin ons scrum proces staat afgebeeld:   
 ![scrum-framework-example](https://user-images.githubusercontent.com/101703190/170763905-e3e050eb-ab16-4ac4-87fa-203edb09b0a6.jpg)
+
+#### Conclusie
+Tijdens dit semester hebben wij op een agile manier gewerkt met scrum.
+Ik vind dit zelf een fijne methode, omdat je hiermee redelijk makkelijk doelgericht kunt werken.
+Met scrum hebben we ook een vaste lengte voor de sprints (3 weken).
+Aan het eind van iedere sprint hebben we een oplevering en dus een vast contactmoment met de opdrachtgever.
+Hierdoor hebben we iedere sprint een datum en doel om naartoe te werken.
 
 # Learning outcome 4 CI/CD
 **Learning outcome:** You **design and implement** a (semi)automated software release process that matches the needs of the project context.
@@ -169,6 +218,11 @@ Als je aan de back-end wilt werken, maak je een database container aan en als je
 Dit toont ook nogmaals mooi aan hoe alle services los van elkaar kunnen werken. De containers staan namelijk los van elkaar en je hoeft ze niet allemaal te gebruiken.
 Sommige hebben uiteraard wel een andere nodig om goed te kunnen werken, maar het is bijvoorbeeld niet nodig om de normale front-end te laten draaien,
 als je alleen de admin front-end wilt gebruiken.
+
+Zie ook: [Reflectie CI/CD](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#cicd--docker)
+
+Hierin kijk ik nogmaals terug op wat ik goed vond gaan en wat niet.
+Daarnaast omschrijf ik ook hoe ik de volgende keer gebruik wil gaan maken van CI/CD.
 
 # Learning outcome 5 Cultural differences and ethics
 **Learning outcome:** You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.
