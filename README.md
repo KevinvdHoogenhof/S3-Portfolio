@@ -61,10 +61,16 @@ Hierboven is een afbeelding waarin je kunt zien hoe alle componenten draaien in 
 voor het groepsproject hebben wij ook een applicatie gemaakt.
 Ik heb hierbij vooral aan de back-end gewerkt.
 Zo heb ik bijvoorbeeld gewerkt aan de logica die bij de sql database hoort.
-Hierbij heb ik er ook voor gezorgd dat we werkende api endpoints hebben, die we dan in de front-end kunnen aanroepen.
+Daarnaast heb ik ook gewerkt aan een groot deel van de logica voor de producten en catogorieen in de nosql database.
+Ik heb voor de catogorieen ook een groot deel van de frontend gemaakt.
+
 De repositories van ons groepsproject kun je hier vinden:
 
 [Groepsproject frontend](https://github.com/kerimcanguney/WOC-Front-End) & [Groepsproject backend](https://github.com/kerimcanguney/WOC-Back-End)
+
+#### Conclusie
+Zie: [Reflectie individueel project](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#individueel-project) voor mijn reflectie.
+Hierin staat hoe ik terugkijk op het maken van de back/front-end.
 
 # Learning outcome 2 Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
@@ -315,6 +321,21 @@ Om de kwaliteit van ons product aan te kunnen tonen hebben wij testen geschreven
 Verder maken wij ook bij het groepsproject gebruikt van codescans.
 Deze lopen bij pull requests en helpen ons ervoor te zorgen dat de softwarekwaliteit in orde blijft.
 Verder gebruiken wij ook de feedback van de opdrachtgever om in te kunnen zien welke aspecten van onze applicatie goed zijn en welke nog verbeterd kunnen worden.
+
+Zie ook: [Testplan](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#testplan)
+
+Hierin omschrijf ik hoe ik de testen heb gemaakt voor mijn eigen project.
+We hebben dit echter op een zelfde soort manier in ons groepsproject geimplementeerd.
+
+#### Conclusie
+Dit semester heb ik veel geleerd over hoe je het beste een ontwerp kunt maken voor een applicatie.
+Zie ook: [Reflectie business proces](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#business-proces)
+hierin staat hoe wij als groep ervoor hadden kunnen zorgen dat ons design beter was geweest aan het begin.
+Daarnaast denk ik dat het handig is om dit design te koppelen aan user stories/issues, die we dan kunnen gebruiken bij het plannen van een sprint.
+
+Al met al zou ik er een volgende keer voor zorgen dat we meer tijd steken in het maken van een goed ontwerp.
+Dit zouden we dan namelijk kunnen gebruiken om met de opdrachtgever te bevestigen of dit was wat zij bedoelden.
+Als dat zo is kunnen wij dit ook gebruiken om code te schrijven die aan het ontwerp voldoet.
 
 # Learning outcome 7 Business processes
 **Learning outcome:** You analyze and describe **simple** business processes that are **related** to your project.
