@@ -79,9 +79,8 @@ Ik gebruik de unit testen om te kijken of alle code werkt. Als er iets niet werk
 De integratie testen gebruik ik om mijn endpoints te testen. Ik test hiermee de endpoints en kijk of de endpoint werk zoals ik het wil.
 Ik kan hierdoor ook zien welke data ik terug krijg van de endpoint en of ik de correcte data terug krijg.
 
-Ik wil ook nog de testen automatisch laten draaien in mijn CI op github actions.
-Hiermee zouden de testen automatisch worden gedraaid, iedere keer dat ik een nieuwe pull request aanmaak.
-Doordat de testen dan draaien bij ieder pull request kan ik in dit request zien of alles correct werkt, of dat ik nog eventuele veranderingen moet maken.
+Zie ook: [Testplan](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Documentation.md#testplan)
+Hier staat meer informatie over hoe ik mijn code wil gaan testen en wat ik ermee doe als er een probleem is.
 
 Zie ook: [Research: pull requests](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#pull-requests)
 Hier kun je meer informatie vinden over pull requests en github actions in het onderzoek wat ik hiernaar heb gedaan.
