@@ -225,7 +225,7 @@ Dit is erg nuttig om te weten voor de frontend, omdat ik namelijk kan zien hoe e
 Bij het schrijven van deze testen liep ik ook tegen verscheidene problemen aan.
 Deze heb ik met behulp van de debugger snel kunnen oplossen.
 
-##### Code coverage
+### Code coverage
 Omdat ik binnen mijn backend ervoor gekozen heb om integratie en unit testen te schrijven, heb ik hier een hoge code coverage.
 Code coverage is een manier om te controleren hoeveel code van jouw programma wordt getest.
 Omdat ik een ASP.NET CORE backend heb en in visual studio werk, kan ik zien boven de functies of en hoevaak ik deze test en wat het resultaat van deze testen is.
@@ -249,3 +249,34 @@ Een ander belangrijk punt is dat je met een automatische test niet goed use case
 Ik heb zelf geprobeerd om de testen die ik heb geschreven voor mijn backend automatisch te laten draaien.
 Dit is mij helaas niet gelukt, omdat ik de hele tijd tegen problemen aanliep waar hij de testen gewoon niet wil uitvoeren.
 Dit is dus zeker een punt waar ik een volgende keer zeker naar zou willen kijken, over hoe dit nou precies werkt.
+
+### Codescans
+Een ander nuttig punt bij het testen van je code zijn codescans.
+Ik heb deze aan mijn project toegevoegd met GitHub actions.
+Ik had ervoor gekozen om de CodeQL codescan te gebruiken.
+Deze scant de code en geeft eventuele probleem weer.
+Daarnaast geeft deze codescan suggesties over hoe je je code schrijft.
+
+### Wat als er een test niet slaagt?
+Bij het maken van testen is het natuurlijk ook belangrijk om na te denken over wat je doet als een test niet slaagt.
+Als een test niet slaagt betekent dit dat er een probleem in je code zit. (of de test niet goed is geschreven, maar hier gaan we niet vanuit)
+
+Zoals ik hierboven ook al heb benoemd, ben ik bij het maken van de testen ook meerdere malen tegen problemen aangelopen.
+Ik heb deze toen direct verholpen en hiermee het probleem opgelost.
+
+Als ik het automatische testen eenmaal werkend zou hebben en ik zou dan tegen een probleem aanlopen dan zou ik het volgende doen:
+- Kijk waar het probleem zit (in de testlog)
+- Open de code opnieuw en los het probleem op
+- Push de fix naar de branch
+- Kijk of hij dit keer wel goed werkt, anders herhaal deze stappen
+
+Ik denk zelf dat ik met deze stappen het grootste deel van de problemen op zou moeten kunnen lossen.
+Ik maak namelijk al gebruik van pull requests die ervoor zorgen dat mijn code niet direct naar de main branch wordt gezet.
+Hierdoor heb ik al een extra stap om mijn code te controleren, wat ik dan dus ook laat doen door die codescans.
+Als je hierbij ook nog de automatische testen werkend hebt en deze slagen, zou er niets fout moeten gaan bij het mergen.
+Mocht dat wel het geval zijn, dan zou ik een nieuwe branch aanmaken om dit te fixen.
+
+Een andere manier om nog meer controle te hebben is om andere de code te laten reviewen in de pull requests.
+Dit kan ik natuurlijk niet doen in mijn individueel project, maar binnen ons groepsproject hebben we dit wel aangezet.
+Nu doen we er nog niet zo heel veel mee, maar ik denk dat het wel goed is om hiermee te leren werken.
+Binnen een bedrijf lijkt mij dit namelijk een belangrijke stap, aangezien je als baas wel die extra controle wilt houden over of er geen rare code wordt toegevoegd.
