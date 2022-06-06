@@ -235,8 +235,27 @@ In een ideale situatie wil je natuurlijk alles testen, maar dit is lang niet alt
 Hierdoor worden vaak alleen essentiele dingen getest.
 
 ### Frontend testen
+Omdat ik nog niet precies wist hoe ik de frontend zou kunnen testen heb ik hier onderzoek naar gedaan.
+Ik heb hiervoor gekeken naar de React testing library.
+Hiermee zou je makkelijk data kunnen opvragen en events laten draaien.
+Met behulp van deze library zou je dichtbij user experience en E2E testen zitten.
 
-> to do
+Een E2E test is een test waarin het gedrag van een gebruiker wordt gesimuleerd.
+Dit soort test maakt geen gebruik van code, maar simuleert het gedrag door acties uit te voeren, zoals: buttons aanklikken en velden invullen.
+Om dit soort testen te maken kun je een user story als uitgangspunt nemen.
+Mij lijkt dit ook een uitstekende keuze, aangezien je user stories aangeven wat jij wilt dat het systeem doet.
+Als alles dan daadwerkelijk zo werkt als jij wilt, kun je dit direct zien.
+
+Binnen React testing library kun je ook het gedrag van de gebruiker simuleren.
+Hierbij worden de volgende stappen uitgevoerd:
+- Renderen van een pagina/componenten
+- Kijk of de benodigde elementen op de pagina staan (hiervoor worden ids van elementen gebruikt)
+- Voer eventen uit (button klikken, velden invullen etc.)
+- Kijk of de wijzigingen op het scherm zo zien als je zou verwachten
+
+Als ik zelf nog frontend testen zou gaan schrijven zou ik het gedrag op mijn paginas willen testen aan de hand van mijn user stories.
+Ik denk dat dit zeker een ding is waar ik de volgende keer meer aandacht aan kan besteden.
+De frontend testen zouden namelijk kunnen aantonen dat de frontend werkt zoals ik verwacht.
 
 ### Geautomatiseerd testen
 Met behulp van GitHub actions kunnen we automatisch onze testen laten draaien.
