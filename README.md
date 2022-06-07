@@ -150,7 +150,7 @@ Hierop kunnen we eenvoudig zien wat we nog willen doen in deze sprint en waar we
 Eventuele problemen waar we tegen aanlopen kunnen we ook snel hieraan toevoegen. 
 
 Zie ook [GitHub issues](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues)
-, dit is het research dat ik heb gedaan naar GitHub en hoe je dit kunt gebruiken om je project te managen
+dit is het research dat ik heb gedaan naar GitHub en hoe je dit kunt gebruiken om je project te managen
 
 #### Sprint review & sprint retrospective
 Wij werken dit semester met sprints. 
