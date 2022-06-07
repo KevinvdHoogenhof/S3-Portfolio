@@ -328,7 +328,7 @@ Behalve het soort database is een ander belangrijk punt natuurlijk de requiremen
 Hiervoor hadden wij in het begin van het semester enkele user stories gemaakt.
 In de afbeelding hieronder kun je deze user stories vinden:
 
-![image](https://user-images.githubusercontent.com/101703190/172390573-f212efb1-a146-4b57-9e84-70c66acabd73.png)
+![image](https://user-images.githubusercontent.com/101703190/172395333-e4fcf325-a833-4378-ba0d-2e01db2af952.png)
 
 In de afbeelding hierboven kun je zien dat onze user stories vooral over functionele aspecten gaan.
 De user stories in de afbeelding hierboven hebben wij ook met de opdrachtgever besproken tijdens ons eerste gesprek.
