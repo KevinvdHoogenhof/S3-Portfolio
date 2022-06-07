@@ -151,7 +151,7 @@ Eventuele problemen waar we tegen aanlopen kunnen we ook snel hieraan toevoegen.
 
 Zie ook: [GitHub issues](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues)
 
-Dit is het research dat ik heb gedaan naar GitHub en hoe je dit kunt gebruiken om je project te managen
+Dit is het research dat ik heb gedaan naar GitHub issues en hoe je dit kunt gebruiken om je project te managen
 
 #### Sprint review & sprint retrospective
 Wij werken dit semester met sprints. 
@@ -324,6 +324,35 @@ Wij hadden toen namelijk goed onderzocht wat voor keuzes we konden maken kwa dat
 Uiteindelijk waren wij van plan om nosql te gebruiken voor de producten en sql voor alles omtreft accounts.
 Dit hebben wij toen ook voorgesteld aan de opdrachtgever en zij gaven aan dat zij dit een prima keuze vonden.
 
+Behalve het soort database is een ander belangrijk punt natuurlijk de requirements van ons project.
+Hiervoor hadden wij in het begin van het semester enkele user stories gemaakt.
+In de afbeelding hieronder kun je deze user stories vinden:
+
+![image](https://user-images.githubusercontent.com/101703190/172390573-f212efb1-a146-4b57-9e84-70c66acabd73.png)
+
+In de afbeelding hierboven kun je zien dat onze user stories vooral over functionele aspecten gaan.
+De user stories in de afbeelding hierboven hebben wij ook met de opdrachtgever besproken tijdens ons eerste gesprek.
+Zij hebben ons toen feedback gegeven op de user stories die wij hadden en wij hebben op basis hiervan wijzigingen gemaakt in onze user stories.
+De user stories hierboven zijn deze gewijzigde user stories.
+
+Deze user stories hebben wij vervolgens als GitHub issues toegevoegd.
+Wij hadden ervoor gekozen om GitHub te gebruiken als planbord, omdat we hiermee onze issues makkelijk kunnen koppelen aan pull requests.
+Daarnaast kun je in GitHub een planbord aanmaken en je issues hierop toevoegen.
+Dit hebben wij ook gedaan, omdat dit planbord een zeer goed alternatief is voor zoiets als trello.
+Met dit planbord hebben wij namelijk heel eenvoudig de issues van de front- en backend bij elkaar kunnen zetten op een overzichtelijke manier.
+
+Zie ook: [GitHub issues](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues)
+
+Dit is mijn onderzoek waarin ik heb gekeken hoe GitHub issues werkt en hoe je dit kunt gebruiken om je project te managen.
+
+Naast het onderzoeken van welk type database we wilden gebruiken en de user stories, hebben wij ook nog gekeken naar hoe wij de applicatie eruit zouden willen laten zien.
+Hierbij hebben wij de volgende ontwerpen gemaakt:
+
+![IMG-20220510-WA0001](https://user-images.githubusercontent.com/101703190/172389533-02a04491-85db-4216-983c-3b4bf143ce46.jpg)
+![IMG-20220510-WA0002](https://user-images.githubusercontent.com/101703190/172389569-5916de2b-1ffd-4072-8b8a-7d970a325cae.jpg)
+
+In deze afbeeldingen kun je zien wat wij in gedachten hadden over hoe onze applicatie eruit zou zien.
+
 Om de kwaliteit van ons product aan te kunnen tonen hebben wij testen geschreven om te laten zien dat alles werkt zoals we willen.
 Verder maken wij ook bij het groepsproject gebruikt van codescans.
 Deze lopen bij pull requests en helpen ons ervoor te zorgen dat de softwarekwaliteit in orde blijft.
@@ -340,9 +369,18 @@ Zie ook: [Reflectie business proces](https://github.com/KevinvdHoogenhof/S3-Port
 hierin staat hoe wij als groep ervoor hadden kunnen zorgen dat ons design beter was geweest aan het begin.
 Daarnaast denk ik dat het handig is om dit design te koppelen aan user stories/issues, die we dan kunnen gebruiken bij het plannen van een sprint.
 
+Ik vond wel dat wij in het begin goed bezig waren en netjes onze user stories met de opdrachtgever hebben besproken.
+De feedback hierop hebben wij ook netjes verwerkt.
+Wij hebben ook een goed ontwerp gemaakt voor de applicatie.
+Helaas hadden wij niet genoeg tijd om alles hiervan toe te kunnen voegen in onze applicatie.
+
 Al met al zou ik er een volgende keer voor zorgen dat we meer tijd steken in het maken van een goed ontwerp.
 Dit zouden we dan namelijk kunnen gebruiken om met de opdrachtgever te bevestigen of dit was wat zij bedoelden.
-Als dat zo is kunnen wij dit ook gebruiken om code te schrijven die aan het ontwerp voldoet.
+Wij hebben dat deze keer namelijk alleen echt met de user stories gedaan.
+Hierdoor hebben wij niet goed genoeg ons best gedaan om erachter te komen wat de opdrachtgever echt wil.
+
+Daarnaast is het ook handig om een volgende keer meer functionele dingen aan de opdrachtgever te laten zien en hier feedback op te vragen.
+We zouden op deze manier namelijk ook kunnen testen of bepaalde dingen al afgerond zijn.
 
 [Terug naar de top](#s3-portfolio)
 # Learning outcome 7 Business processes
