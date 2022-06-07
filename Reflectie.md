@@ -117,10 +117,14 @@ Ik denk dat het een volgende keer wel handig zou kunnen zijn om een testplan te 
 Zo weten zij ook wat wij allemaal gaan testen en kunnen we hierin nogmaals de functionaliteit van de applicatie bespreken.
 
 #### Business proces
-Net zoals het testplan dat ik hierboven heb genoemd, is het business proces ook een onderdeel wat wij helaas niet hebben gemaakt.
+Net zoals het testplan dat ik hierboven heb genoemd, is het business proces ook een onderdeel wat wij helaas niet op tijd hebben gemaakt.
 Wij hebben namelijk wel dit soort processen zelf in de groep besproken, maar ik denk dat het heel goed geweest zou zijn om dit ook met de opdrachtgever te doen.
 Met een mooi model van zo'n business proces zouden wij gelijk kunnen laten zien of zij ook zo over het proces dachten.
 Daarnaast kunnen we bij het analyseren van dit proces eventuele vragen/problemen opschrijven en deze meenemen in een gesprek met de opdrachtgever.
+Als we dan een model ervan hebben gemaakt en deze laten zien aan de opdrachtgever, is het ook heel handig om dit te bespreken.
+Het model van ons proces zou ons dan ook goed kunnen helpen om duidelijk te krijgen wat de opdrachtgever wil.
+Daarnaast is het makkelijker om feedback te krijgen op een model, dan op grote stukken tekst.
+Deze feedback zouden we ook weer mee kunnen nemen in ons model en de rest van het project.
 
 #### Algemeen
 Binnen de groep hebben wij ons best gedaan om zovaak mogelijk op school te zijn.
