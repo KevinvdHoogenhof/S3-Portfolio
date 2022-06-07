@@ -72,6 +72,7 @@ De repositories van ons groepsproject kun je hier vinden:
 Zie: [Reflectie individueel project](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#individueel-project) voor mijn reflectie.
 Hierin staat hoe ik terugkijk op het maken van de back/front-end.
 
+[Top](#s3-portfolio)
 # Learning outcome 2 Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
 
@@ -351,6 +352,16 @@ Zie: [Business proces](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/mai
 Hierin staat alles over welk proces wij hebben gekozen en de analyse hierbij.
 
 Zie: [Reflectie business proces](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#business-proces) voor mijn reflectie op het maken van dit business proces.
+
+#### Conclusie
+Zoals ik in de reflectie ook al zeg hadden wij het business proces kunnen gebruiken aan het begin van het semester tijdens een gesprek met de opdrachtgever.
+We zouden dan dit model kunnen gebruiken om te laten zien hoe wij denken dat het proces opgebouwd is.
+Hierop kunnen wij dan ook heel handig feedback vragen en deze meenemen.
+Daarnaast is het model ook erg nuttig voor ons als groep, aangezien wij dit kunnen gebruiken als design voor hoe we dingen moeten maken binnen onze applicatie.
+
+Het komt er dus op neer dat het een volgende keer handig zou zijn om in het begin een model te maken van belangrijke processen binnen het project.
+Hiermee kunnen we deze processen namelijk op een goede manier visualiseren en bij de opdrachtgever kijken of wij goed weten wat zij nou willen.
+Het is immers een goede manier om dit nogmaals te valideren en ik ga er een volgende keer ook zeker op letten dat wij dit meer zouden gaan doen.
 
 # Learning outcome 8 Professional
 **Learning outcome:** You act in a **professional manner** during software development and learning.
