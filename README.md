@@ -148,7 +148,9 @@ Wij doen iedere dag een stand-up, waarin we bespreken wat we die dag gaan doen e
 Ook kijken we hierbij regelmatig op ons [GitHub planbord](https://github.com/users/kerimcanguney/projects/1)
 Hierop kunnen we eenvoudig zien wat we nog willen doen in deze sprint en waar we nog meer aan kunnen werken binnen ons project.
 Eventuele problemen waar we tegen aanlopen kunnen we ook snel hieraan toevoegen. 
-(Zie ook [GitHub issues](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues))
+
+Zie ook [GitHub issues](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#github-issues)
+, dit is het research dat ik heb gedaan naar GitHub en hoe je dit kunt gebruiken om je project te managen
 
 #### Sprint review & sprint retrospective
 Wij werken dit semester met sprints. 
