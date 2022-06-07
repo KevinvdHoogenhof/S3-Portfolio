@@ -72,7 +72,7 @@ De repositories van ons groepsproject kun je hier vinden:
 Zie: [Reflectie individueel project](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#individueel-project) voor mijn reflectie.
 Hierin staat hoe ik terugkijk op het maken van de back/front-end.
 
-[Top](#s3-portfolio)
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 2 Software quality 
 **Learning outcome:** You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.
 
@@ -92,6 +92,7 @@ Hier staat meer informatie over hoe ik mijn code wil gaan testen en wat ik ermee
 Zie ook: [Research: pull requests](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Research%20GitHub.md#pull-requests)
 Hier kun je meer informatie vinden over pull requests en github actions in het onderzoek wat ik hiernaar heb gedaan.
 
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 3 Agile method
 **Learning outcome:** You **choose** and implement the most suitable agile software development method for your software project.
 
@@ -173,6 +174,7 @@ Met scrum hebben we ook een vaste lengte voor de sprints (3 weken).
 Aan het eind van iedere sprint hebben we een oplevering en dus een vast contactmoment met de opdrachtgever.
 Hierdoor hebben we iedere sprint een datum en doel om naartoe te werken.
 
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 4 CI/CD
 **Learning outcome:** You **design and implement** a (semi)automated software release process that matches the needs of the project context.
 
@@ -231,6 +233,7 @@ Zie ook: [Reflectie CI/CD](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob
 Hierin kijk ik nogmaals terug op wat ik goed vond gaan en wat niet.
 Daarnaast omschrijf ik ook hoe ik de volgende keer gebruik wil gaan maken van CI/CD.
 
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 5 Cultural differences and ethics
 **Learning outcome:** You **recognize** and **take into account** cultural differences between project stakeholders and ethical aspects in software development.
 
@@ -338,6 +341,7 @@ Al met al zou ik er een volgende keer voor zorgen dat we meer tijd steken in het
 Dit zouden we dan namelijk kunnen gebruiken om met de opdrachtgever te bevestigen of dit was wat zij bedoelden.
 Als dat zo is kunnen wij dit ook gebruiken om code te schrijven die aan het ontwerp voldoet.
 
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 7 Business processes
 **Learning outcome:** You analyze and describe **simple** business processes that are **related** to your project.
 
@@ -363,6 +367,7 @@ Het komt er dus op neer dat het een volgende keer handig zou zijn om in het begi
 Hiermee kunnen we deze processen namelijk op een goede manier visualiseren en bij de opdrachtgever kijken of wij goed weten wat zij nou willen.
 Het is immers een goede manier om dit nogmaals te valideren en ik ga er een volgende keer ook zeker op letten dat wij dit meer zouden gaan doen.
 
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 8 Professional
 **Learning outcome:** You act in a **professional manner** during software development and learning.
 
