@@ -61,7 +61,7 @@ Hiermee kun je eventuele problemen/fouten oplossen voordat de pull request wordt
 Een andere functie die handig is om te gebruiken bij een pull request is GitHub Actions. 
 Hiermee kun je namelijk automatisch testen laten lopen, waardoor je kunt checken of de code die je wilt toevoegen/wijzigen aan de main branch, nog steeds correct werkt. 
 
-## Hoe voeg je CI/CD toe met behulp van GitHub
+## Hoe voeg je CI/CD toe met behulp van GitHub?
 GitHub actions wordt er dus voor gebruikt om ervoor te zorgen dat je automatisch dingen kunt bouwen testen en deployen. 
 Je kunt hiermee dus bijvoorbeeld ervoor zorgen dat worden getest en gemergde pull requests wordt gedeployt naar een server.  
 
