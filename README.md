@@ -170,12 +170,22 @@ Hiermee kunnen wij dan ook rekening houden.
 Hieronder staat een afbeelding waarin ons scrum proces staat afgebeeld:   
 ![scrum-framework-example](https://user-images.githubusercontent.com/101703190/170763905-e3e050eb-ab16-4ac4-87fa-203edb09b0a6.jpg)
 
-#### Conclusie
+#### Scrum methode
 Tijdens dit semester hebben wij op een agile manier gewerkt met scrum.
 Ik vind dit zelf een fijne methode, omdat je hiermee redelijk makkelijk doelgericht kunt werken.
 Met scrum hebben we ook een vaste lengte voor de sprints (3 weken).
 Aan het eind van iedere sprint hebben we een oplevering en dus een vast contactmoment met de opdrachtgever.
 Hierdoor hebben we iedere sprint een datum en doel om naartoe te werken.
+
+#### Conclusie
+Om nog eens terug te kijken op onze manier van werken heb ik een reflectie geschreven,
+Zie: [Reflectie agile](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#agile)
+
+In deze reflectie bespreek ik wat wij een volgende keer beter zouden kunnen doen binnen het scrum proces.
+
+Zie ook: [Reflectie plannen](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#planbord--planning),
+[Reflectie CI/CD & testen; Definition of Done](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#cicd--testen)
+voor andere agile/scrum principes waarop ik nog terugkijk in de reflectie.
 
 [Terug naar de top](#s3-portfolio)
 # Learning outcome 4 CI/CD
