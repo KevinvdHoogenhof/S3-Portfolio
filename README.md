@@ -133,6 +133,7 @@ Om het proces op weg naar een product te visualiseren wordt een kanbanbord gebru
 Dit is ingedeeld in: to-do, doing en done.
 Met dit bord heb je een goed inzicht in de taken die er zijn.
 Het bord heeft als doel om je proces te visualiseren, het work in progress te beperken, de flow bij te kunnen houden en het monitoren van het proces.
+Een ander punt wat heel belangrijk is in kanban is het beperken van het work in progress.
 
 #### Conclusie
 Er zijn veel verschillende methodes om op een agile manier te werken.
@@ -179,7 +180,7 @@ Hierdoor hebben we iedere sprint een datum en doel om naartoe te werken.
 
 #### Conclusie
 Om nog eens terug te kijken op onze manier van werken heb ik een reflectie geschreven,
-Zie: [Reflectie agile](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#agile)
+zie: [Reflectie agile](https://github.com/KevinvdHoogenhof/S3-Portfolio/blob/main/Reflectie.md#agile)
 
 In deze reflectie bespreek ik wat wij een volgende keer beter zouden kunnen doen binnen het scrum proces.
 
@@ -317,6 +318,41 @@ Verder hoef je ook geen gevoelige data door te sturen of op te slaan.
 Je kunt namelijk de gegevens voor test accounts van de applicatie in de code vinden.
 Het doel van ons project is ook vooral om een PIM systeem te maken waarmee we producten kunnen laten zien, niet om allerlei gegevens van gebruikers op te slaan.
 
+### Ethiek binnen mijn software
+Het is belangrijk om na te denken over de ethische gevolgen van de software die je maakt.
+Hierboven heb ik alleen de code van mijn software bedoeld, maar ik denk ook dat het heel belangrijk is om na te denken over de content op je website.
+Je hebt namelijk ook de verantwoording om ervoor te zorgen dat niet zomaar als op je site kan worden geplaatst.
+
+Binnen mijn project zou dit bijvoorbeeld inhouden dat ik ervoor zorg dat boeken worden gecontroleerd voordat je ze toe kunt voegen.
+Dit zou dan bijvoorbeeld door admins kunnen worden gedaan.
+Hiermee heb je dan al een extra stap die er voor zorgt dat er bijvoorbeeld geen gevoelige content op jouw website komt.
+Uiteraard vinden sommige personen dingen wel schokkend en andere niet, daarom is dit uiteraard geen perfecte oplossing.
+Je kunt wel meer admins toevoegen (bijv. van verschillende etnische achtergronden) om dit beter te controleren, maar dit kost ook weer veel tijd en dus geld.
+Daarnaast is dit ook geen ideale oplossing, omdat er nog steeds kwetsende dingen door de controle heen kunnen komen.
+Op de zelfde manier zou ook content waar het grootste deel van jouw gebruikers geen enkel probleem mee heeft kunnen worden tegengehouden.
+
+Je zou hier meer regelmaat in kunnen brengen door gebruik te maken van land filters / leeftijd filters.
+Met behulp van deze filters zou je alleen bepaalde content aan een gebruiker kunnen laten zien en ga je er in ieder geval op een bewustere manier mee om.
+Ook zou je gebruikersspecifieke filters toe kunnen voegen, waarin de gebruiker aangeeft of hij bepaalde content liever niet zou willen zien.
+Het komt namelijk ook voor dat mensen bepaalde onderdelen wel accepteren, maar dit niet hoeven zien.
+Hiermee forceer je dus gebruikers niet en geef je hun de keuze of ze wel of niet dingen over een bepaald onderwerp willen zien.
+
+Behalve de content op je website is het ook belangrijk om de interactie tussen gebruikers in de gaten te houden.
+Het zou namelijk zomaar kunnen dat iemand in een chat wordt opgelicht of verzocht wordt ongepaste dingen te doen of dat iemand erg wordt beledigd.
+Als je een chat functie hebt op jouw website moet je hier dus ook rekening mee houden.
+
+Dit kan uiteraard ook door gebruik te maken van admins, maar je zou ook bijvoorbeeld filters kunnen toevoegen die kijken naar bepaalde woorden en deze blokkeren.
+Deze zijn vaak redelijk eenvoudig te ontwijken, maar het helpt toch al als je deze hebt toegevoegd.
+Dit soort filter is ook erg nuttig om te voorkomen dat er bijvoorbeeld ongepaste gebruikersnamen worden gekozen, uiteraard is ook hierbij extra controle nodig.
+
+#### Conclusie
+Het is belangrijk om na te denken over hoe gebruikers om gaan met jouw applicatie.
+Hierbij komt niet alleen jouw code kijken, maar ook de content die op jouw site kan worden gezet.
+
+Ik denk zelf dat het vooral belangrijk is om ervoor te zorgen dat niet zomaar alles op jouw website kan worden gezet.
+Als dit wel het geval zou zijn, zou hier al snel misbruik van worden gemaakt.
+
+[Terug naar de top](#s3-portfolio)
 # Learning outcome 6 Requirements and Design
 **Learning outcome**: You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques.**
 
