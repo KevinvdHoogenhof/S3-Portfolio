@@ -113,6 +113,12 @@ Het was dus niet zo handig om dit niet sneller af te ronden en in plaats hiervan
 Een volgende keer moeten we er dus voor zorgen dat we vaker met elkaar samenwerken als iets niet wil lukken.
 Hierbij moeten we er dus voor zorgen dat we dingen niet te lang op onze backlog laten staan, om dit soort situaties te voorkomen.
 
+Een andere manier waarop wij de volgende keer deze punten zouden kunnen voorkomen is door Kanban te gebruiken.
+Ik heb dit ook nog met Kerim besproken en wij denken beiden dat Kanban ons goed zou kunnen helpen bij het verminderen van work in progress.
+Hiermee zou het namelijker overzichtelijker zijn waar je nog aan moet werken.
+Als er dan langer over iets gedaan wordt, of iemand er problemen mee heeft kunnen we dit ook zien en hier samen aan gaan werken.
+Op deze manier zouden we er dan gelijk voor zorgen dat wij user stories ook volledig afronden en niet slechts deels, zoals nu vaak het geval was.
+
 #### Planbord & Planning
 Aan het begin van het semester hadden wij user stories opgesteld met onze ideeen over wat we zouden kunnen maken.
 Deze user stories hebben wij met de opdrachtgever besproken en zij hebben ons ook advies gegeven over wat beter zou kunnen.
