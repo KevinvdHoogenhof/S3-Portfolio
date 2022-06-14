@@ -91,11 +91,11 @@ De eerste sprints hebben wij iedere keer weer wat meer principes binnen scrum ge
 Zo zijn wij bijvoorbeeld in sprint 2 gebruik gaan maken van het geven van punten aan user stories en issues die wij die sprint willen gaan maken.
 Wij hadden dit gebruikt om een idee te kunnen hebben bij hoelang iets zou gaan duren.
 
-Een ander onderdeel waaraan wij beter zijn geworden dit semester is de sprint review.
+Een ander onderdeel waaraan wij beter zijn geworden dit semester is de sprint retrospective.
 In het begin hadden wij hier namelijk alleen wat feedback van de opdrachtgever ingezet, nu kijken wij hierbij ook terug op de sprint zelf.
-Wij kunnen nu dus een sprint review doen, zoals die ook hoort.
+Wij kunnen nu dus een sprint retrospective doen, zoals die ook hoort.
 
-Tijdens zo'n sprint review kijken wij vooral terug op wat er goed ging en wat er minder goed ging in de sprint.
+Tijdens zo'n sprint retrospective kijken wij vooral terug op wat er goed ging en wat er minder goed ging in de sprint.
 Wij bespreken de punten die minder goed gingen en hoe wij dit de volgende sprint beter kunnen aanpakken.
 De laatste sprint hebben wij bijvoorbeeld hierin besproken om vooral op functionaliteit te focussen, omdat wij ver achter liggen.
 
