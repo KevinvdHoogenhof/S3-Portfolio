@@ -352,6 +352,33 @@ Hierbij komt niet alleen jouw code kijken, maar ook de content die op jouw site 
 Ik denk zelf dat het vooral belangrijk is om ervoor te zorgen dat niet zomaar alles op jouw website kan worden gezet.
 Als dit wel het geval zou zijn, zou hier al snel misbruik van worden gemaakt.
 
+### Voorbeeld van ethiek in de praktijk
+Bronnen: [Tweakers: Ethische kwestie EA](https://tweakers.net/nieuws/154256/ea-in-gameaankopen-op-basis-van-kans-zijn-best-ethisch-en-leuk.html)
+en [Polygon: Ethische kwestie EA](https://www.polygon.com/2019/6/21/18691760/ea-vp-loot-boxes-surprise-mechanics-ethical-enjoyable)
+
+Ik heb op het internet gezocht naar ethische problemen die voorkomen binnen bedrijven die games maken.
+Daarbij kwam ik op bovenstaande artikelen over lootboxen in EA spellen.
+
+Het ethisch vraagstuk wat in deze artikelen wordt genoemd, is het gebruik van loot boxes in spellen.
+Loot boxes (zie ook: [Wikipedia: loot boxes](https://en.wikipedia.org/wiki/Loot_box)) zijn virtuele items in spellen die je kunt inruilen voor een willekeurige selectie aan virtuele items.
+De items die je uit een loot box kunt krijgen zijn vaak cutomization options voor een avatar, equipment, wapens, etc.
+
+Het probleem van loot boxes is dat deze erg pay to win kunnen zijn.
+Dit is het geval wanneer de items die je uit een loot box kunt krijgen een grootte impact hebben op je game ervaring, zeker wanneer deze loot boxes veel geld kosten.
+Een voorbeeld hiervan uit de onderzochte artikelen is FIFA kaarten.
+
+In het onderzochte artikelen staat dat EA in-game aankopen op basis van kans 'best ethisch en leuk' vindt.
+Loot boxes worden hier door EA vergeleken met chocoladeverassingseieren.
+Het bijbehorende mechanisme zou hierbij ook iets leuks zijn waar mensen van genieten, mensen vinden verassingen nou eenmaal leuk.
+Hierbij wordt ook genoemd dat er geen bewijs is dat loot boxes tot een gokverslaving zouden leiden.
+
+Binnen verschillende landen wordt er anders op dit standpunt gereageerd.
+Zo zijn in België lootboxachtige mechanismes automatisch in strijd met de wet, terwijl in Nederland lootboxes alleen onwettig zijn als de inhoud verhandelbaar is.
+Andere landen zoals Zuid-Korea, China en Japan hebben hier ook al wetgeving voor gemaakt.
+
+Je kunt dus goed zien dat er verschillende meningen zijn over of loot boxes ethisch verantwoord zijn.
+Loot boxes worden namelijk al snel vergeleken met gokken en het is dus een goede vraag of EA ethisch handelt in deze kwestie.
+
 [Terug naar de top](#s3-portfolio)
 # Learning outcome 6 Requirements and Design
 **Learning outcome**: You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques.**
