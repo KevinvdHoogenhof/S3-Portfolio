@@ -164,9 +164,9 @@ Deze gebruiken we om te zien of er grote problemen zijn in onze code.
 Daarnaast zouden we ook de suggesties kunnen gebruiken om onze code op te schonen, hier hadden wij helaas niet echt tijd meer voor.
 
 Voor een volgende keer zou het handig zijn om gebruik te maken van de 'Definition of Done'.
-Dit is een manier binnen scrum om af te spreken met de opdrachtgever wanneer iets af is.
+Dit is een manier binnen scrum om af te spreken wanneer iets af is.
 Een Definition of Done is een checklist voor met activiteiten die afgevinkt moeten worden voor iedere user story.
-Enkele onderdelen die we hierin terug zouden kunnen laten komen zijn bijvoorbeeld: draaien van testen, goede documentatie, alle code is geschreven.
+Enkele onderdelen die we hierin terug zouden kunnen laten komen zijn bijvoorbeeld: draaien van testen, goede documentatie, alle code is geschreven, git repo is bijgewerkt.
 
 #### Business proces
 Net zoals het testplan dat ik hierboven heb genoemd, is het business proces ook een onderdeel wat wij helaas niet op tijd hebben gemaakt.
